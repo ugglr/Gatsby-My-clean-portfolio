@@ -6,10 +6,10 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
+import gatsbyStarterPicture from "../images/portfolio/16by9/gatsby_starter.jpg"
 import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.jpg"
 import imageSearchAppPicture from "../images/portfolio/16by9/image-search.jpg"
 import weatherAppPicture from "../images/portfolio/16by9/weather-app.jpg"
-import saveTweetAppPicture from "../images/portfolio/16by9/save_tweet.jpg"
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -22,6 +22,17 @@ const projectProject = {
 }
 #####################################################
 */
+
+//Official Gatsby.js Starter
+
+const gatsbyStarterProject = {
+  title: "Official Gatsby.js Starter",
+  date: "2019-04-19",
+  decription:
+    "After completing this portfolio site, I forked the project, changed the content to make it into a starter template and got my pull-request accepted into the offical Gatsby.js project in Github. After I also joined the official maintainers team of the project.",
+  sourceURL: "https://github.com/ugglr/gatsby-clean-portfolio",
+  hostedURL: "https://www.gatsbyjs.org/starters/ugglr/gatsby-clean-portfolio/",
+}
 
 //Living Cost Calculator Project
 
@@ -57,19 +68,6 @@ const weatherAppProject = {
   hostedURL: "https://www.carlw.se/portfolioSites/react-weather-app/index.html",
 }
 
-//Save Tweet app Project
-
-const saveTweetProject = {
-  title: "Vanilla JS Create-Read-Delete to Local Storage",
-  date: "2019-02-05",
-  decription:
-    "Vanilla Javascript application which saves & removes strings into/from the browsers Local Storage. Bootstrap CSS file is used for styling purposes.",
-  sourceURL:
-    "https://github.com/ugglr/JavaScript-Webapp-Read-Write-to-local-storage",
-  hostedURL:
-    "https://www.carlw.se/portfolioSites/JavaScript-Webapp-Read-Write-to-local-storage/index.html",
-}
-
 export default () => (
   <div className="App">
     <Layout>
@@ -92,6 +90,18 @@ export default () => (
       //description: Short description of the card 
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={gatsbyStarterPicture}
+              title={gatsbyStarterProject.title}
+              date={gatsbyStarterProject.date}
+              description={gatsbyStarterProject.decription}
+              sourceURL={gatsbyStarterProject.sourceURL}
+              hostedURL={gatsbyStarterProject.hostedURL}
+            />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <ProjectCard
@@ -125,18 +135,6 @@ export default () => (
               description={weatherAppProject.decription}
               sourceURL={weatherAppProject.sourceURL}
               hostedURL={weatherAppProject.hostedURL}
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <ProjectCard
-              imageSrcPath={saveTweetAppPicture}
-              title={saveTweetProject.title}
-              date={saveTweetProject.date}
-              description={saveTweetProject.decription}
-              sourceURL={saveTweetProject.sourceURL}
-              hostedURL={saveTweetProject.hostedURL}
             />
           </Col>
         </Row>
