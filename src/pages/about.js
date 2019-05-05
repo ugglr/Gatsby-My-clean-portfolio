@@ -47,7 +47,7 @@ export default () => (
               country of Sweden, and the other in my wife's country, China. I
               have high ambitions for my self, I want to build things that are
               new, refreshing, and makes a difference for others. I don't see my
-              path with technology as merely a career path.
+              path with technology as merely a career.
               <br />
               <br />
               My most advanced degree is MSc. Electrical Engineering: Design of
@@ -66,20 +66,15 @@ export default () => (
               offer to take up the role as an electronics engineer at a stable
               local company. Needless to say, it was a great start, the work was
               rewarding and I was learning brand new things everyday. 3.5 years
-              down the line I increasingly saw myself doing the same tasks as
-              the senior engineers, some with a decade more experience than me,
-              and I realized that there were not more room for me to grow. I
-              missed the software engineering side to things, and on my free
-              time to fill the gap I had at work I was studying how to code. I
-              spent many hours at teamtreehouse.com, freecodecamp, codecademy,
-              Udemy. I realized that I wanted to change direction into coding.
+              down the line I decided to make a change, I realized that I wanted
+              to change direction into Software Engineering.
               <br />
               <br />
               Fast forward: This year in January my son turned 3 years old, I
-              quit my job and moved back to China with my wife to her home city,
-              we were missing the fast paced life, and I had to change path
-              before getting to comfortable in something I’m not passionate
-              about.
+              quit my job and moved back to China with my wife to her home city
+              of Hangzhou, we were missing the fast paced life, and I had to
+              make my change before getting too comfortable in something I’m not
+              passionate about.
               <br />
             </p>
           </Col>

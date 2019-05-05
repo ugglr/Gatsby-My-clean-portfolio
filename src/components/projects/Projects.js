@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/16by9/boendekostnad.jpg"
+import image from "../../images/portfolio/16by9/currency-wallet.jpg"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,13 +20,13 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"React Mortgage Calculator"}
-        date={"2019-03-28"}
+        title={"Gatsby React Currency Wallet"}
+        date={"2019-05-03"}
         description={
-          "While I was buying my apartment in Sweden, I always made the calculations by hand because I could not find a calculator that gave the whole picture. Tools: create-react-app; Bootstrap4; Material-UI"
+          "A coding challenge where I was gived the task of creating an electronic wallet holding several currencies. The scaffolding was created using Gatsby.js, the UI components come from Material-UI Library."
         }
-        sourceURL={"https://github.com/ugglr/boendekostnad-nu"}
-        hostedURL={"http://www.boendekostnad.nu"}
+        sourceURL={"https://github.com/ugglr/gatsby-react-currency-wallet-app"}
+        hostedURL={"https://ugglr.github.io/gatsby-react-currency-wallet-app/"}
       />
       <Link to="/projects" className="blueViolet">
         Go to Projects page ---->

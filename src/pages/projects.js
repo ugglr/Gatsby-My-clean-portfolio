@@ -6,6 +6,7 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
+import gatsbyCurrencyPicture from "../images/portfolio/16by9/currency-wallet.jpg"
 import gatsbyStarterPicture from "../images/portfolio/16by9/gatsby_starter.jpg"
 import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.jpg"
 import imageSearchAppPicture from "../images/portfolio/16by9/image-search.jpg"
@@ -22,6 +23,17 @@ const projectProject = {
 }
 #####################################################
 */
+
+//Gatsby React Currency Wallet App
+
+const gatsbyCurrencyWalletProject = {
+  title: "Gatsby React Currency Wallet",
+  date: "2019-05-03",
+  decription:
+    "A coding challenge where I was gived the task of creating an electronic wallet holding several currencies. The scaffolding was created using Gatsby.js, the UI components come from Material-UI Library.",
+  sourceURL: "https://github.com/ugglr/gatsby-react-currency-wallet-app",
+  hostedURL: "https://ugglr.github.io/gatsby-react-currency-wallet-app/",
+}
 
 //Official Gatsby.js Starter
 
@@ -90,6 +102,18 @@ export default () => (
       //description: Short description of the card 
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={gatsbyCurrencyPicture}
+              title={gatsbyCurrencyWalletProject.title}
+              date={gatsbyCurrencyWalletProject.date}
+              description={gatsbyCurrencyWalletProject.decription}
+              sourceURL={gatsbyCurrencyWalletProject.sourceURL}
+              hostedURL={gatsbyCurrencyWalletProject.hostedURL}
+            />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <ProjectCard
