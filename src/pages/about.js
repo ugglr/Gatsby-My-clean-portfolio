@@ -8,7 +8,7 @@ import "./index.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import CV from "../files/cv/CV.pdf"
+import CV from "../files/cv/CV_english.pdf"
 import courses from "../files/cv/Complete List of Courses.pdf"
 import CN_CV from "../files/cv/CV_chinese.pdf"
 import CN_courses from "../files/cv/电机工程硕士所修课程.pdf"
