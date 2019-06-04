@@ -17,19 +17,19 @@ const Summary = () => (
         <span>JavaScript</span>
       </Col>
       <Col>
+        <i className="fab fa-python hover_effect" />
+        <br />
+        <span>Python</span>
+      </Col>
+      <Col>
+        <i className="fab fa-node-js hover_effect" />
+        <br />
+        <span>Node.js</span>
+      </Col>
+      <Col>
         <i className="fab fa-react hover_effect" />
         <br />
         <span>React.js</span>
-      </Col>
-      <Col>
-        <i className="fab fa-html5 hover_effect" />
-        <br />
-        <span>HTML5</span>
-      </Col>
-      <Col>
-        <i className="fab fa-css3 hover_effect" />
-        <br />
-        <span>CSS3</span>
       </Col>
       <Col>
         <i className="fab fa-github hover_effect" />

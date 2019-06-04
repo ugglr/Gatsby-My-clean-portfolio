@@ -42,15 +42,14 @@ export default () => (
           <Col>
             <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
             <p>
-              I'm an Engineer, a husband, and a father. I currently live on two
-              opposite ends of the world, standing with one foot in my home
-              country of Sweden, and the other in my wife's country, China. I
-              have high ambitions for my self, I want to build things that are
-              new, refreshing, and makes a difference for others. I don't see my
-              path with technology as merely a career.
+              I currently live on two opposite ends of the world, standing with
+              one foot in my home country of Sweden, and the other in my wife's
+              country, China. I want to build things that are new, refreshing,
+              and makes a difference for others. I really enjoy solving tough
+              problems.
               <br />
               <br />
-              My most advanced degree is MSc. Electrical Engineering: Design of
+              Education wise I hold a MSc. in Electrical Engineering: Design of
               Processors and Integrated Systems and what many people might not
               realize is that it’s actually a software degree, with VHDL as the
               main language. The difference is that VHDL code becomes transistor

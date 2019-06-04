@@ -13,8 +13,8 @@ const Hero = () => (
       </h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
-        design and hack things together on the internet.
+        Right now I'm using Javascript, Python, Node.js, React.js, Gatsby.js
+        and, GraphQL to design and hack things together on the internet.
       </h3>
       <p>Have a project you'd like to discuss?</p>
       <p>

@@ -33,8 +33,12 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            <MyButton text={"Source Code"} URL={props.sourceURL} />
-            <MyButton text={"Hosted App"} URL={props.hostedURL} />
+            {props.sourceURL.length > 0 && (
+              <MyButton text={"Source Code"} URL={props.sourceURL} />
+            )}
+            {props.hostedURL.length > 0 && (
+              <MyButton text={"Hosted App"} URL={props.hostedURL} />
+            )}
           </Row>
         </Col>
       </Row>

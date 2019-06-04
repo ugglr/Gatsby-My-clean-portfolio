@@ -6,6 +6,7 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
+import djangoReactNotePicture from "../images/portfolio/16by9/django-rest-react-crud.jpg"
 import gatsbyCurrencyPicture from "../images/portfolio/16by9/currency-wallet.jpg"
 import gatsbyStarterPicture from "../images/portfolio/16by9/gatsby_starter.jpg"
 import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.jpg"
@@ -23,6 +24,17 @@ const projectProject = {
 }
 #####################################################
 */
+
+//Django React Fullstack Notemanager
+
+const djangoReactNoteProject = {
+  title: "Django-React Fullstack Notemanager",
+  date: "2019-05-06",
+  decription:
+    "Fullstack REST-API Notemanager app running Django as a backend and react for building the UI. The REST-API is built using the Django Rest API framework and the JSX is served as a single page into Django Template using webpack. Instructions for local setup in repo.",
+  sourceURL: "https://github.com/ugglr/django-react-note-manager",
+  hostedURL: "",
+}
 
 //Gatsby React Currency Wallet App
 
@@ -102,6 +114,18 @@ export default () => (
       //description: Short description of the card 
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={djangoReactNotePicture}
+              title={djangoReactNoteProject.title}
+              date={djangoReactNoteProject.date}
+              description={djangoReactNoteProject.decription}
+              sourceURL={djangoReactNoteProject.sourceURL}
+              hostedURL={djangoReactNoteProject.hostedURL}
+            />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <ProjectCard

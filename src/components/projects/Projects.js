@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/16by9/currency-wallet.jpg"
+import image from "../../images/portfolio/16by9/django-rest-react-crud.jpg"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,13 +20,13 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"Gatsby React Currency Wallet"}
-        date={"2019-05-03"}
+        title={"Django-React Fullstack Notemanager"}
+        date={"2019-05-06"}
         description={
-          "A coding challenge where I was gived the task of creating an electronic wallet holding several currencies. The scaffolding was created using Gatsby.js, the UI components come from Material-UI Library."
+          "Fullstack REST-API Notemanager app running Django as a backend and react for building the UI. The REST-API is built using the Django Rest API framework and the JSX is served as a single page into Django Template using webpack. Instructions for local setup in repo."
         }
         sourceURL={"https://github.com/ugglr/gatsby-react-currency-wallet-app"}
-        hostedURL={"https://ugglr.github.io/gatsby-react-currency-wallet-app/"}
+        hostedURL={""}
       />
       <Link to="/projects" className="blueViolet">
         Go to Projects page ---->
