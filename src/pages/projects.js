@@ -66,7 +66,7 @@ const mortgageCalculatorProject = {
   decription:
     "While I was buying my apartment in Sweden, I always made the calculations by hand because I could not find a calculator that gave the whole picture. Tools: create-react-app; Bootstrap4; Material-UI",
   sourceURL: "https://github.com/ugglr/boendekostnad-nu",
-  hostedURL: "http://www.boendekostnad.nu",
+  hostedURL: "https://elastic-fermat-01bd5f.netlify.com",
 }
 
 //React Image-API search app Project
@@ -77,8 +77,7 @@ const imageSearchAppProject = {
   decription:
     "This app uses Axios to search Pixabay API for images, and displays them in a grid below. Also uses Material-UI pre-built components for some styling.",
   sourceURL: "https://github.com/ugglr/React-Image-Search-API-app",
-  hostedURL:
-    "https://www.carlw.se/portfolioSites/react-image-search-app/index.html",
+  hostedURL: "https://priceless-newton-929cda.netlify.com",
 }
 
 //Weather app Project
@@ -89,7 +88,7 @@ const weatherAppProject = {
   decription:
     "This app uses async-await + fetch to grab weather data from openweathermap.org open API. Bootstrap 4 CSS classes are used for styling",
   sourceURL: "https://github.com/ugglr/react-API-weather-app",
-  hostedURL: "https://www.carlw.se/portfolioSites/react-weather-app/index.html",
+  hostedURL: "https://trusting-mccarthy-495030.netlify.com",
 }
 
 export default () => (

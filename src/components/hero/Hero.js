@@ -14,7 +14,7 @@ const Hero = () => (
       </h1>
       <br />
       <h3>
-        Right now I'm working 100% Remote using React and React Native to build
+        Right now I'm working remotely using React and React Native to build
         awesome software over at Tiket.com.
       </h3>
       <p>Have a project you'd like to discuss?</p>
