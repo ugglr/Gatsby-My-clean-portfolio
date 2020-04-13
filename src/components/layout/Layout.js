@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
             `portfolio Site`,
             `material-UI`,
             `react-bootstrap`,
-            `boostrap`,
+            `bootstrap`,
             `API calling`,
             `Axios`,
             `Fetch`,
