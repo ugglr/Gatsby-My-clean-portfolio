@@ -42,23 +42,19 @@ export default () => (
           <Col>
             <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
             <p>
-              I currently live on two opposite ends of the world, standing with
-              one foot in my home country of Sweden, and the other in my wife's
-              country, China. I want to build things that are new, refreshing,
-              and makes a difference for others. I really enjoy solving tough
-              problems.
+              I currently live in Hangzhou, China, a really exciting city, and
+              my wifes hometown. My career goal is that I want to build things
+              that are new, refreshing, and makes a difference for others. I
+              really enjoy solving tough problems.
               <br />
               <br />
-              Education wise I hold a MSc. in Electrical Engineering: Design of
-              Processors and Integrated Systems and what many people might not
-              realize is that it’s actually a software degree, with VHDL as the
-              main language. The difference is that VHDL code becomes transistor
-              structures on silicon making up the chips, compared to other
-              higher level code becomes instructions for the chips themselves. I
-              took extra courses in JAVA, and scaled software development
-              practices and did a minor in Software Engineering. I am convinced
-              knowing the whole chain from electron to screen render makes me
-              write better code.
+              MSc. in Electrical Engineering: Design of Processors and
+              Integrated Systems. We dived deep into computer science, large
+              scale software development, JAVA, signal processing and Chip
+              design / fabrication. We also did some FPGA development with VHDL
+              / Verilog, designed MEMS and did a wide range of embedded
+              projects. Tons and tons of math, analysis, analogue electronics,
+              we ran through a lot in those 5 years.
               <br />
               <br />
               Right out of university I was soon becoming a father, and I got an
@@ -66,15 +62,48 @@ export default () => (
               local company. Needless to say, it was a great start, the work was
               rewarding and I was learning brand new things everyday. 3.5 years
               down the line I decided to make a change, I realized that I wanted
-              to change direction into Software Engineering.
+              to change direction into Software Engineering. This is because I
+              never stopped coding on my free time.
               <br />
               <br />
-              Fast forward: This year in January my son turned 3 years old, I
-              quit my job and moved back to China with my wife to her home city
-              of Hangzhou, we were missing the fast paced life, and I had to
-              make my change before getting too comfortable in something I’m not
-              passionate about.
+              In early 2019 and after about 9 months of self study into the
+              React eco-system, and web development, I landed my current job as
+              a Software Development Engineer, and Remote has been a great
+              experience for me.
               <br />
+            </p>
+          </Col>
+        </Row>
+        <hr />
+        {/* This is the beginning of the career section*/}
+        <Row>
+          <Col>
+            <h3>Past work experience</h3>
+          </Col>
+        </Row>
+        {/* Tiket.com Position*/}
+        <Row>
+          <Col>
+            <h5>Software Development Engineer</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Tiket.com, Remote (Vancouver Office)</Col>
+          <Col>2019.08 - Present</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop: "1rem" }}>
+              I work remotely mainly with HQ in Jakarta on the Tiket ToDo team,
+              but I am under the Canadian office based in Vancouver. Our team
+              focuses on events and attractions and have building out a platform
+              to cater that segment of the business. I do front-end development
+              in React on our B2B Admin site, and also with React Native on the
+              Android / iOS applications.
+              <br />
+              <br />
+              Our stack as mentioned above revolves around the React eco-system,
+              we also use Redux, Styled Components, Jest, Detox and much more.
             </p>
           </Col>
         </Row>

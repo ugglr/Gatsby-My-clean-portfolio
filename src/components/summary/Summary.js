@@ -17,19 +17,14 @@ const Summary = () => (
         <span>JavaScript</span>
       </Col>
       <Col>
-        <i className="fab fa-python hover_effect" />
+        <i className="fab fa-react hover_effect" />
         <br />
-        <span>Python</span>
+        <span>React.js</span>
       </Col>
       <Col>
         <i className="fab fa-node-js hover_effect" />
         <br />
         <span>Node.js</span>
-      </Col>
-      <Col>
-        <i className="fab fa-react hover_effect" />
-        <br />
-        <span>React.js</span>
       </Col>
       <Col>
         <i className="fab fa-github hover_effect" />
@@ -48,22 +43,20 @@ const Summary = () => (
         <h4 className="hover_effect">Fast Learner</h4>
         <p>
           Through my career I have been on a never ending quest to learn new
-          things that excites me and feels fresh. In the Software side of the
-          river this is great because new tools and frameworks are coming out
-          very frequently. Bringing me onto the team you get someone who think
-          it's a privilege to get into new waters and will jump at the
-          opportunity to do something new.
+          things that excites me and feels fresh. As a Software engineer, this
+          great because new tools and frameworks are coming out very frequently.
+          With me the team you get someone who think it's a privilege to learn
+          about new things and will jump at the opportunity to do so.
         </p>
       </Col>
       <Col>
         <h4 className="hover_effect">Communication</h4>
         <p>
-          During my 4 years of working in a high responsibility position I
-          learnt the value of clear and concise exchange of information. Many
-          meetings in my career were just wasted on missunderstandings and
-          useless talking about things that was not related to getting the work
-          done. I absolutely hate wasting time, and as such, clear concise and
-          structured communication is religion.
+          During the course of my carees I learnt the value of clear and concise
+          exchange of information. Many meetings are just wasted on
+          missunderstandings and useless talking about things not related to
+          getting the work done. I absolutely hate wasting time, and as such,
+          clear concise and structured communication is religion.
         </p>
       </Col>
     </Row>
@@ -72,25 +65,24 @@ const Summary = () => (
       <Col>
         <h4 className="hover_effect">True Technologist</h4>
         <p>
-          With a Msc. in Electrical Engineering and 4 years working experience
-          as an Electronics Engineer in Hardware Development, I am someone who
-          know the whole chain that makes up a computer. It is important to
-          bring in as many perspectives in a project as possible, and with me
-          you will have someone who can think from the Silicon structures,
-          through the machine code, Asembly code and up to the top level fluffy
-          stuff like JavaScript.
+          With a Msc. in Electrical Engineering and many years working in
+          several technology fields, I have a solid foundation of computer
+          science. It is important to bring in as many perspectives to a project
+          as possible. With me you will have someone who can think from the
+          Silicon structures, through the machine code, Asembly code and up to
+          the top level fluffy stuff like JavaScript.
         </p>
       </Col>
       <Col>
         <h4 className="hover_effect">Getting Things done</h4>
         <p>
-          I absolutely hate wasting time on endless discussions that does not
-          bring any real value. I have seen the impact on a project who dives
-          too deep into the details and, as we all know, it's not pretty. I am a
-          big practitioner of ToDo-Lists, Kanban, Agile/Scrum Methodologies and
-          anything else that might elevate productivity levels. Let's face it,
-          our brains are lazy. It needs dicipline to trick our brains to keep
-          delivering, and I like to keep the momentum up!
+          I truly dislike spending time on discussions that does not bring any
+          real value. I have seen the impact on a project who dives too deep
+          into the details and (as we all know), it's not pretty. I am big on
+          tools that actually makes working more effective, and try to exclude
+          everything else. Let's face it, our brains are lazy. It needs
+          dicipline to trick our brains to keep delivering, and I like to keep
+          the momentum up!
         </p>
       </Col>
     </Row>

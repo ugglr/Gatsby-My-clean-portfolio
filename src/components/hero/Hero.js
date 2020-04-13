@@ -9,12 +9,13 @@ const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
       <h1>
-        Hey, I'm a Software developer from Sweden, living in Hangzhou, China.
+        Hi,
+        <br /> I'm a Software developer from Sweden, living in Hangzhou, China.
       </h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Python, Node.js, React.js, Gatsby.js
-        and, GraphQL to design and hack things together on the internet.
+        Right now I'm working 100% Remote using React and React Native to build
+        awesome software over at Tiket.com.
       </h3>
       <p>Have a project you'd like to discuss?</p>
       <p>
