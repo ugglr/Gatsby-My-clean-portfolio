@@ -13,6 +13,7 @@ import MyButton from "../myButton/MyButton"
 //hostedURL: URL to the hosted version of the app
 
 const ProjectCard = props => {
+  console.log("CARD PROPS", props)
   return (
     <div className="project_container">
       <Row>
