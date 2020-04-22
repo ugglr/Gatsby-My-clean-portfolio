@@ -76,13 +76,12 @@ const Summary = () => (
       <Col>
         <h4 className="hover_effect">Getting Things done</h4>
         <p>
-          I truly dislike spending time on discussions that does not bring any
-          real value. I have seen the impact on a project who dives too deep
-          into the details and (as we all know), it's not pretty. I am big on
-          tools that actually makes working more effective, and try to exclude
-          everything else. Let's face it, our brains are lazy. It needs
-          dicipline to trick our brains to keep delivering, and I like to keep
-          the momentum up!
+          I dislike spending time on discussions that does not bring any real
+          value. I've seen the impact on a project which dives too deep into the
+          details and (as we all know), it's not pretty. I'm big on tools that
+          actually makes working more effective, and try to exclude everything
+          else. Let's face it, our brains are lazy. It needs dicipline to trick
+          our brains to keep delivering, and I like to keep the momentum up!
         </p>
       </Col>
     </Row>

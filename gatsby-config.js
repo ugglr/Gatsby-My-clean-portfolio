@@ -1,3 +1,11 @@
+// Initialize dotenv
+require("dotenv").config({
+  path: `.env`,
+})
+
+// And then you can use the config in gatsby-config.js
+const config = require("gatsby-plugin-config")
+
 module.exports = {
   siteMetadata: {
     title: `Carl-W. Igelstroem - Software Developer`,
@@ -7,6 +15,7 @@ module.exports = {
     author: `@real_carlw`,
   },
   plugins: [
+    `gatsby-plugin-config`,
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
@@ -30,7 +39,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //Replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-50160729-4",
       },
     },
