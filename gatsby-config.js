@@ -12,10 +12,15 @@ module.exports = {
     description: `Carl-Wilhelm Igelstroem Software Developer portfolio. At the moment I mainly focus on Front-End development using react.js and node.js.`,
     url: "https://www.carlw.se",
     twitterUsername: "@real_carlw",
-    author: `@real_carlw`,
+    author: `ugglr`,
   },
   plugins: [
-    `gatsby-plugin-config`,
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ["DEV_TO_API_KEY"],
+      },
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
