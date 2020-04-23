@@ -29,6 +29,11 @@ const MyNavbar = () => (
           </a>
         </li>
         <li className="float_right">
+          <Link to="/blog" className="menu_link">
+            Blog
+          </Link>
+        </li>
+        <li className="float_right">
           <Link to="/projects" className="menu_link">
             Projects
           </Link>
