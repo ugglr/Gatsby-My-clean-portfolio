@@ -21,7 +21,7 @@ const ProjectCard = props => {
           <img
             src={props.imageSrcPath}
             alt={"Smiley face"}
-            style={{ maxWidth: "100%" }}
+            style={{ width: "100%", objectFit: "contain" }}
           />
         </Col>
         <Col>
