@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.3.3",
+    "gatsby-plugin-config": "^1.0.7",
+    "gatsby-plugin-env-variables": "^1.0.1",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.26",
@@ -25,7 +28,8 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

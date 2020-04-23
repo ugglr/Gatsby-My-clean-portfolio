@@ -13,6 +13,7 @@ import MyButton from "../myButton/MyButton"
 //hostedURL: URL to the hosted version of the app
 
 const ProjectCard = props => {
+  console.log("CARD PROPS", props)
   return (
     <div className="project_container">
       <Row>
@@ -20,7 +21,7 @@ const ProjectCard = props => {
           <img
             src={props.imageSrcPath}
             alt={"Smiley face"}
-            style={{ maxWidth: "100%" }}
+            style={{ width: "100%", objectFit: "contain" }}
           />
         </Col>
         <Col>
@@ -33,10 +34,15 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            {props.sourceURL.length > 0 && (
-              <MyButton text={"Source Code"} URL={props.sourceURL} />
+            {props.sourceURL && props.sourceURL.length > 0 && (
+              <MyButton
+                text={
+                  props.leftButtonText ? props.leftButtonText : "Source Code"
+                }
+                URL={props.sourceURL}
+              />
             )}
-            {props.hostedURL.length > 0 && (
+            {props.hostedURL && props.hostedURL.length > 0 && (
               <MyButton text={"Hosted App"} URL={props.hostedURL} />
             )}
           </Row>
