@@ -5,6 +5,7 @@ import { getPosts } from "../helpers/getPosts"
 
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
+import LoadingAnimation from "../components/LoadingAnimation"
 import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 //import my custom styles
@@ -32,7 +33,7 @@ const Blog = () => {
           body={"learnings. ramblings. you know the drill."}
         />
         <hr />
-        {loading && <h1>loading posts...</h1>}
+        {loading && <LoadingAnimation />}
         {!loading &&
           posts.map(post => {
             return (
