@@ -1,32 +1,14 @@
 import React, { useState, useEffect } from "react"
 import superagent from "superagent"
 
+import { getPosts } from "../helpers/getPosts"
+
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 //import my custom styles
 import "./index.css"
-
-// function for getting my blog posts from dev.to.
-const getPosts = async () => {
-  // const DEV_TO_URL_PRIVATE = "https://dev.to/api/articles/me/published"
-  // const API_KEY = process.env.DEV_TO_API_KEY
-
-  const DEV_TO_URL = "https://dev.to/api/articles"
-
-  try {
-    const result = superagent
-      .get(DEV_TO_URL)
-      .query({ username: "ugglr" })
-      .then(res => {
-        return res.body
-      })
-    return result
-  } catch (error) {
-    console.log("WE HAVE FETCH POST ERROR", error)
-  }
-}
 
 const Blog = () => {
   const [posts, setPosts] = useState([])
