@@ -1,14 +1,13 @@
 .jumbo_social {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 2rem;
   max-width: 100%;
   margin-top: 4rem;
 }
 
 .jumbo_social i {
   font-size: 2rem;
-}
-
-a:link {
-  color: black;
 }
 
 .hover_effect:hover {

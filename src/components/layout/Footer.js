@@ -1,13 +1,33 @@
 import React from "react"
 
 import { Container, Jumbotron, Row, Col } from "react-bootstrap"
+import SocialRow from "../SocialRow/SocialRow"
 import { Link } from "gatsby"
 
 import "./footer.css"
 import "../../fontawesome/css/all.min.css"
 
+const Links = [
+  {
+    title: "Home",
+    url: "/",
+  },
+  {
+    title: "About",
+    url: "/about",
+  },
+  {
+    title: "Projects",
+    url: "/projects",
+  },
+  {
+    title: "Blog",
+    url: "/blog",
+  },
+]
+
 const Footer = () => (
-  <React.Fragment>
+  <>
     <div
       className="top_border"
       style={{ marginBottom: "0px", width: "100%", marginTop: "3rem" }}
@@ -41,81 +61,19 @@ const Footer = () => (
           </Col>
         </Row>
         <Row>
-          <Col xs={2} style={{ fontSize: "1.3rem" }}>
-            <Link to="/">
-              <span className="link_styles">Home</span>
-            </Link>
-          </Col>
-          <Col xs={2} style={{ fontSize: "1.3rem" }}>
-            <Link to="/about">
-              <span className="link_styles">About</span>
-            </Link>
-          </Col>
-          <Col xs={2} style={{ fontSize: "1.3rem" }}>
-            <Link to="/projects">
-              <span className="link_styles">Projects</span>
-            </Link>
-          </Col>
+          {Links.map(({ url, title }) => {
+            return (
+              <Col xs={2} style={{ fontSize: "1.3rem" }}>
+                <Link to={url}>
+                  <span className="link_styles">{title}</span>
+                </Link>
+              </Col>
+            )
+          })}
         </Row>
-        <Row className="footer_social text-center">
-          <Col>
-            <a
-              href="https://www.github.com/ugglr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github hover_effect" />
-            </a>
-          </Col>
-          <Col>
-            <a
-              href="https://www.linkedin.com/in/igelstrom"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-linkedin hover_effect" />
-            </a>
-          </Col>
-          <Col>
-            <a
-              href="https://twitter.com/real_carlw"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter hover_effect" />
-            </a>
-          </Col>
-
-          <Col>
-            <a
-              href="https://www.instagram.com/hangzhouist/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram hover_effect" />
-            </a>
-          </Col>
-
-          <Col>
-            <a
-              className="hover_effect"
-              href="https://www.hackerrank.com/carl_igelstrom"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-hackerrank hover_effect" />
-            </a>
-          </Col>
-          <Col>
-            <a
-              href="https://angel.co/igelstroem"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-angellist hover_effect" />
-            </a>
-          </Col>
-        </Row>
+        <div class="jumbo_social_row_container">
+          <SocialRow color="white" />
+        </div>
         <Row className="text-center" style={{ marginTop: "3rem" }}>
           <Col>
             Carl-W.Igelstroem © {new Date().getFullYear()}, Built with
@@ -135,7 +93,7 @@ const Footer = () => (
         </Row>
       </Container>
     </Jumbotron>
-  </React.Fragment>
+  </>
 )
 
 const footer_styles = {
