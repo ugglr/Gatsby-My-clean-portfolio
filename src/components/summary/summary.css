@@ -2,21 +2,52 @@
   color: blueviolet;
 }
 
-.content {
+.summary_content {
+  max-width: 960px;
   margin-bottom: 2.5rem;
+}
+.summary_title {
+  font-size: 1.9rem;
+  font-weight: 580;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .tech_icons i {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .tech_icons span {
   font-size: 1.5rem;
 }
 
-@media (max-width: 450px) {
+.goal_text {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-weight: 590;
+}
+
+.summary_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.summary_col {
+  padding: 0rem 2rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .summary_col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
   .tech_icons i {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 
   .tech_icons span {
@@ -24,6 +55,6 @@
   }
 
   .goal_text {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
 }

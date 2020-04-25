@@ -15,6 +15,12 @@ a:link {
   color: blueviolet;
 }
 
+@media (max-width: 980px) {
+  .jumbo_social i {
+    font-size: 1.8rem;
+  }
+}
+
 @media (max-width: 550px) {
   .jumbo_social i {
     font-size: 1.6rem;

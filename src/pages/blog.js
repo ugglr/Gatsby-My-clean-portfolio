@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import superagent from "superagent"
 
 import { getPosts } from "../helpers/getPosts"
 

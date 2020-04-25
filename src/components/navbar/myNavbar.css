@@ -51,3 +51,23 @@ i:hover {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 400px) {
+  .float_left {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+  .float_right {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 310px) {
+  .float_left {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+  }
+  .float_right {
+    font-size: 0.75rem;
+  }
+}
