@@ -6,20 +6,8 @@
 }
 
 .footer_social {
-  display: flex;
-  justify-content: space-between;
-  padding: 0rem 2rem;
-  max-width: 100%;
-  margin-top: 4rem;
-}
-
-.footer_social i {
-  font-size: 2rem;
-  color: #fff;
-}
-
-.hover_effect:hover {
-  color: blueviolet;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
 }
 
 .link_styles {

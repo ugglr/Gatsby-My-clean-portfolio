@@ -71,7 +71,7 @@ const Footer = () => (
             )
           })}
         </Row>
-        <div class="jumbo_social_row_container">
+        <div className={footer.footer_social}>
           <SocialRow color="white" />
         </div>
         <Row className="text-center" style={{ marginTop: "3rem" }}>
