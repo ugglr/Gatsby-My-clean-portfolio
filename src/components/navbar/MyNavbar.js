@@ -1,10 +1,32 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./myNavbar.css"
+import nav from "./myNavbar.module.css"
+
+const Links = [
+  {
+    title: "Home",
+    url: "/",
+  },
+  {
+    title: "About",
+    url: "/about",
+  },
+  {
+    title: "Projects",
+    url: "/projects",
+  },
+  {
+    title: "Blog",
+    url: "/blog",
+  },
+]
 
 const MyNavbar = () => (
-  <div className="top_border" style={{ marginBottom: "0px", width: "100%" }}>
+  <div
+    className={nav.top_border}
+    style={{ marginBottom: "0px", width: "100%" }}
+  >
     <div
       style={{
         margin: `0 auto`,
@@ -13,41 +35,30 @@ const MyNavbar = () => (
         paddingTop: 0,
       }}
     >
-      <ul className="nav_styles">
-        <li className="float_left">
+      <ul className={nav.nav_styles}>
+        <li className={nav.float_left}>
           <i className="fas fa-frog" />
         </li>
-        <li className="float_right">
+        <li className={nav.float_right}>
           {/* eslint-disable-next-line */}
           <a
             href="https://www.github.com/ugglr"
             target="_blank"
             rel="noopener noreferrer"
-            className="menu_link"
+            className={nav.nav_menu_link}
           >
             GitHub
           </a>
         </li>
-        <li className="float_right">
-          <Link to="/blog" className="menu_link">
-            Blog
-          </Link>
-        </li>
-        <li className="float_right">
-          <Link to="/projects" className="menu_link">
-            Projects
-          </Link>
-        </li>
-        <li className="float_right">
-          <Link to="/about" className="menu_link">
-            About
-          </Link>
-        </li>
-        <li className="float_right">
-          <Link to="/" className="menu_link">
-            Home
-          </Link>
-        </li>
+        {Links.map(({ title, url }) => {
+          return (
+            <li className={nav.float_right}>
+              <Link to={url} className={nav.nav_menu_link}>
+                {title}
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </div>
   </div>

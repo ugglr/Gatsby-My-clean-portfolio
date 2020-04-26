@@ -1,10 +1,8 @@
-a {
-  text-decoration: none;
-  color: "#fff";
-}
-
-.footer_social {
-  color: #fff;
+.top_border {
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: blueviolet;
+  width: 100%;
 }
 
 .footer_social {
@@ -18,10 +16,6 @@ a {
 .footer_social i {
   font-size: 2rem;
   color: #fff;
-}
-
-a:link {
-  color: white;
 }
 
 .hover_effect:hover {

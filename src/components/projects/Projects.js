@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Container } from "react-bootstrap"
-import "./projects.css"
 import ProjectCard from "../portProjectCard/ProjectCard"
 import { PROJECTS } from "../../content/Projects"
+
+import "./projects.css"
 
 const Projects = () => {
   const { img, title, date, description, sourceURL, hostedURL } = PROJECTS[0]

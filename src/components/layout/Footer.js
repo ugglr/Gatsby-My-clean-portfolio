@@ -4,7 +4,7 @@ import { Container, Jumbotron, Row, Col } from "react-bootstrap"
 import SocialRow from "../SocialRow/SocialRow"
 import { Link } from "gatsby"
 
-import "./footer.css"
+import footer from "./footer.module.css"
 import "../../fontawesome/css/all.min.css"
 
 const Links = [
@@ -29,7 +29,7 @@ const Links = [
 const Footer = () => (
   <>
     <div
-      className="top_border"
+      className={footer.top_border}
       style={{ marginBottom: "0px", width: "100%", marginTop: "3rem" }}
     />
     <Jumbotron fluid style={footer_styles}>
@@ -65,7 +65,7 @@ const Footer = () => (
             return (
               <Col xs={2} style={{ fontSize: "1.3rem" }}>
                 <Link to={url}>
-                  <span className="link_styles">{title}</span>
+                  <span className={footer.link_styles}>{title}</span>
                 </Link>
               </Col>
             )
@@ -87,7 +87,7 @@ const Footer = () => (
             />
             <a href="https://www.gatsbyjs.org">
               {" "}
-              <span className="blueViolet">& Gatsby</span>
+              <span className={footer.blueViolet}>& Gatsby</span>
             </a>
           </Col>
         </Row>

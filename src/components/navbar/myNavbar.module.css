@@ -31,15 +31,15 @@ li {
   margin-top: 1.5rem;
 }
 
-i:hover {
-  color: blueviolet;
-}
-
-.menu_link {
+.nav_menu_link {
   color: black;
 }
 
-.menu_link:hover {
+.nav_menu_link:hover {
+  color: blueviolet;
+}
+
+i:hover {
   color: blueviolet;
 }
 
