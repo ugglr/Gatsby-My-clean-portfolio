@@ -5,20 +5,20 @@ import nav from "./myNavbar.module.css"
 
 const Links = [
   {
-    title: "Home",
-    url: "/",
-  },
-  {
-    title: "About",
-    url: "/about",
+    title: "Blog",
+    url: "/blog",
   },
   {
     title: "Projects",
     url: "/projects",
   },
   {
-    title: "Blog",
-    url: "/blog",
+    title: "About",
+    url: "/about",
+  },
+  {
+    title: "Home",
+    url: "/",
   },
 ]
 
