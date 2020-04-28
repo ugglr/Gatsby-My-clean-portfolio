@@ -10,6 +10,16 @@
   margin: 0;
 }
 
+.logo {
+  height: 45px;
+  width: 45px;
+  margin-top: 7px;
+}
+.logo:hover {
+  height: 46px;
+  width: 46px;
+}
+
 ul {
   list-style: none;
 }
@@ -26,7 +36,7 @@ li {
 
 .float_right {
   float: right;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-right: 1rem;
   margin-top: 1.5rem;
 }
@@ -44,6 +54,11 @@ i:hover {
 }
 
 @media (max-width: 630px) {
+  .logo {
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+  }
   .float_left {
     font-size: 2rem;
   }
