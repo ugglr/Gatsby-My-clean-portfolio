@@ -3,9 +3,6 @@ require("dotenv").config({
   path: `.env`,
 })
 
-// And then you can use the config in gatsby-config.js
-const config = require("gatsby-plugin-config")
-
 module.exports = {
   siteMetadata: {
     title: `Carl-W. Igelstroem - Software Developer`,
@@ -37,12 +34,11 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
-
         // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
         appDescription: null,
-        developerName: null,
-        developerURL: null,
+        developerName: "Ugglr",
+        developerURL: "https://carlw.se",
         dir: "auto",
         lang: "en-US",
         background: "#fff",

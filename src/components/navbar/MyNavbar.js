@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import nav from "./myNavbar.module.css"
 
+const logo = require("../../images/logo.png")
+
 const Links = [
   {
     title: "Blog",
@@ -37,7 +39,9 @@ const MyNavbar = () => (
     >
       <ul className={nav.nav_styles}>
         <li className={nav.float_left}>
-          <i className="fas fa-frog" />
+          <Link to="/">
+            <img src={logo} alt={"Smiley face"} class={nav.logo} />
+          </Link>
         </li>
         <li className={nav.float_right}>
           {/* eslint-disable-next-line */}
