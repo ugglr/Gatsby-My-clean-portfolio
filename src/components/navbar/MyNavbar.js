@@ -31,7 +31,6 @@ const MyNavbar = () => (
   >
     <div
       style={{
-        backgroundColor: "red",
         margin: `0 auto`,
         maxWidth: 960,
         padding: `0px`,
