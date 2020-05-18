@@ -10,7 +10,9 @@ import MyButton from "../myButton/MyButton"
 //date: The date of the card
 //description: Short description of the card
 //sourceURL: URL to the source code of the project
+//leftButtonText: changes the left button text
 //hostedURL: URL to the hosted version of the app
+//rightButtonText: changes the right button text
 
 const ProjectCard = props => {
   console.log("CARD PROPS", props)
@@ -43,7 +45,12 @@ const ProjectCard = props => {
               />
             )}
             {props.hostedURL && props.hostedURL.length > 0 && (
-              <MyButton text={"Hosted App"} URL={props.hostedURL} />
+              <MyButton
+                text={
+                  props.rightButtonText ? props.rightButtonText : "Hosted App"
+                }
+                URL={props.hostedURL}
+              />
             )}
           </Row>
         </Col>

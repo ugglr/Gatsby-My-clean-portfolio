@@ -42,7 +42,9 @@ export default () => (
       //date: The date of the card
       //description: Short description of the card 
       //sourceURL: URL to the source code of the project 
-      //hostedURL: URL to the hosted version of the app*/}
+      //leftButtonText: changes the left button text
+      //hostedURL: URL to the hosted version of the app
+      //rightButtonText: changes the right button text*/}
         {PROJECTS.map(p => {
           return (
             <Row>
@@ -53,7 +55,9 @@ export default () => (
                   date={p.date}
                   description={p.description}
                   sourceURL={p.sourceURL}
+                  leftButtonText={p.leftButtonText}
                   hostedURL={p.hostedURL}
+                  rightButtonText={p.rightButtonText}
                 />
               </Col>
             </Row>
