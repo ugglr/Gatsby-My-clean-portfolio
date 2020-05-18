@@ -1,5 +1,36 @@
 export const PROJECTS = [
   {
+    img: "https://miro.medium.com/max/1400/1*xDi2csEAWxu95IEkaNdFUQ.png",
+    title: "react-native-value-picker",
+    date: "2020-05-18",
+    description:
+      "The Native picker on Android is a modal / dropdown design which is vastly different from the native iOS picker. In my current project we wanted a design more similar to the iOS native picker, and thus I created this Scroll Picker as a replacement on Android, but it works equally well on iOS for instance as an alternative to @react-native-community/picker native iOS picker module.",
+    sourceURL: "https://github.com/ugglr/react-native-value-picker",
+    hostedURL: "https://www.npmjs.com/package/react-native-value-picker",
+    rightButtonText: "NPM Link",
+  },
+  {
+    img: "https://miro.medium.com/max/1200/0*11eDqY4zA04y2_n6.jpg",
+    title: "REST-Express-Mongo-Backend-Boilerplate",
+    date: "2020-01-18",
+    description:
+      "Hit the ground running with this powerful production worthy REST Backend API Boilerplate. Comes with user models, password hashing and sending JWT. Stack: Node, Express, MongoDB+Mongoose.",
+    sourceURL:
+      "https://github.com/ugglr/REST-Express-Mongo-Backend-Boilerplate",
+    hostedURL: "",
+  },
+  {
+    img:
+      "https://i2.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/06/GraphQL.png?resize=730%2C389&ssl=1",
+    title: "Graphql-Express-Apollo-Backend-Boilerplate",
+    date: "2019-12-31",
+    description:
+      "Hit the ground running with this powerful production worthy Graphql Backend Boilerplate. Comes with basic user models & resolvers, password hashing etc. Scale-able file-structure.",
+    sourceURL:
+      "https://github.com/ugglr/Graphql-Express-Apollo-Backend-Boilerplate",
+    hostedURL: "",
+  },
+  {
     img: require("../images/portfolio/16by9/django-rest-react-crud.jpg"),
     title: "Django-React Fullstack Notemanager",
     date: "2019-05-06",
