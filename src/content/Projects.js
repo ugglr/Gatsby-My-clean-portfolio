@@ -1,5 +1,24 @@
 export const PROJECTS = [
   {
+    img: require("../images/portfolio/ignis.png"),
+    title: "Ignis by Tiket",
+    date: "2020-06-03",
+    tags: ["work"],
+    roles: ["Frontend"],
+    tech: [
+      "React Native",
+      "React Native Camera",
+      "Redux",
+      "REST",
+      "Styled Components",
+    ],
+    description:
+      "Events management app. This app helps to support Tiket.com ToDo Partners by giving robust functionality in managing their inventory orders. You can easily find customer information and ticket redemption details in real-time. Architected by a beloved tech-lead who sadly departed the team, otherwise I'm the only developer on the apps. iOS coming soon.",
+    hostedURL:
+      "https://play.google.com/store/apps/details?id=com.tiketeventsmerchants",
+    rightButtonText: "Google Play Store",
+  },
+  {
     img: "https://miro.medium.com/max/1400/1*xDi2csEAWxu95IEkaNdFUQ.png",
     title: "react-native-value-picker",
     date: "2020-05-18",
