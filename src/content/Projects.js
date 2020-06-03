@@ -1,7 +1,6 @@
 export const PROJECTS = [
   {
-    img:
-      "https://lh3.googleusercontent.com/2K0rQINDFSvUHlcUlAga2u-H_pinJKDpcVrqvpNyxdFpUDhOTwSfx6d55ThwpJZOSuIS=s360",
+    img: require("../images/portfolio/ignis.png"),
     title: "Ignis by Tiket",
     date: "2020-06-03",
     tags: ["work"],
