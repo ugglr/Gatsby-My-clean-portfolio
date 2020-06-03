@@ -1,5 +1,17 @@
 export const PROJECTS = [
   {
+    img:
+      "https://lh3.googleusercontent.com/2K0rQINDFSvUHlcUlAga2u-H_pinJKDpcVrqvpNyxdFpUDhOTwSfx6d55ThwpJZOSuIS=s360",
+    title: "Ignis by Tiket",
+    date: "2020-06-03",
+    tags: ["work"],
+    roles: ["Frontend"],
+    description:
+      "This app helps to support Tiket.com ToDo Partners by giving robust functionality in managing their inventory orders. You can easily find customer information and ticket redemption details in real-time.",
+    hostedURL: "https://www.npmjs.com/package/react-native-value-picker",
+    rightButtonText: "Google Play Store",
+  },
+  {
     img: "https://miro.medium.com/max/1400/1*xDi2csEAWxu95IEkaNdFUQ.png",
     title: "react-native-value-picker",
     date: "2020-05-18",
