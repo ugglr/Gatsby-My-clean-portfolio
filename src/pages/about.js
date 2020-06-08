@@ -108,12 +108,6 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the career section*/}
-        <Row>
-          <Col>
-            <h3>Past work experience</h3>
-          </Col>
-        </Row>
         {/* Axis Electronics Position*/}
         <Row>
           <Col>
