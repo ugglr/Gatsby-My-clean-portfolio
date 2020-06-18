@@ -1,0 +1,118 @@
+.container {
+  margin-bottom: 1rem;
+  padding: 12px 12px;
+}
+
+.topRowContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobTitleContainer {
+  background-color: blueviolet;
+  width: 36rem;
+  padding: 16px 16px;
+  border-radius: 4px;
+  box-shadow: 16px 16px 1px 0 pink;
+}
+
+.jobTitleContainer h1 {
+  font-size: 5rem;
+  color: whitesmoke;
+}
+
+.dateTextContainer {
+  text-align: right;
+  border-right-color: blueviolet;
+  border-right-width: 5px;
+  border-right-style: solid;
+  padding-right: 10px;
+}
+
+.dateTextContainer h1 {
+  font-size: 3.4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.middleText {
+  color: blueviolet;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.subRowContainer {
+  display: flex;
+  padding: 16px 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: palegreen;
+  border-radius: 4px;
+}
+
+.subRowContainer h2 {
+  font-size: 2.7rem;
+  color: black;
+}
+
+.descriptionContainer {
+  width: 100%;
+  margin-top: 2rem;
+  border-left-color: blueviolet;
+  border-left-width: 10px;
+  border-left-style: solid;
+  padding-left: 16px;
+}
+.descriptionContainer p {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 740px) {
+  .jobTitleContainer {
+    width: 100%;
+  }
+
+  .dateTextContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    border-right-width: 0px;
+
+    border-bottom-color: blueviolet;
+    border-bottom-width: 3.5px;
+    border-bottom-style: solid;
+  }
+  .middleText {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  .descriptionContainer {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 518px) {
+  .jobTitleContainer h1 {
+    font-size: 3.5rem;
+  }
+  .dateTextContainer h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .jobTitleContainer h1 {
+    font-size: 3rem;
+  }
+  .dateTextContainer h1 {
+    font-size: 2rem;
+  }
+  .subRowContainer h2 {
+    font-size: 1.5rem;
+  }
+}

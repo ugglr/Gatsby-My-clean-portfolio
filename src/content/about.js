@@ -1,20 +1,27 @@
+export const jumboContent = {
+  title: "About me. tldr warning.",
+  body:
+    "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive.",
+  body2: "I also speak pretty good Mandarin if that's... needed.",
+}
+
 export const summary = {
   title: "Summary",
   subtitle: "I love Coffee. I mean, more than people normaly like coffee",
   body: `
-    I currently live in Hangzhou, China, a really exciting city, and my wifes hometown. My career goal is that I want to build things that are new, refreshing, and makes a difference for others. I really enjoy solving tough problems.
+  I currently live in Hangzhou, China, a really exciting city, and my wifes hometown. My career goal is that I want to build things that are new, refreshing, and makes a difference for others. I really enjoy solving tough problems.
 
-    MSc. in Electrical Engineering: Design of Processors and Integrated Systems. We dived deep into computer science, large scale software development, JAVA, signal processing and Chip design / fabrication. We also did some FPGA development with VHDL / Verilog, designed MEMS and did a wide range of embedded projects. Tons and tons of math, analysis, analogue electronics, we ran through a lot in those 5 years.
-    
-    Right out of university I was soon becoming a father, and I got an offer to take up the role as an electronics engineer at a stable local company. Needless to say, it was a great start, the work was rewarding and I was learning brand new things everyday. 3.5 years down the line I decided to make a change, I realized that I wanted to change direction into Software Engineering. This is because I never stopped coding on my free time.
-    
-    In early 2019 and after about 9 months of self study into the React eco-system, and web development, I landed my current job as a Software Development Engineer, and Remote has been a great experience for me.
-    `,
+  MSc. in Electrical Engineering: Design of Processors and Integrated Systems. We dived deep into computer science, large scale software development, JAVA, signal processing and Chip design / fabrication. We also did some FPGA development with VHDL / Verilog, designed MEMS and did a wide range of embedded projects. Tons and tons of math, analysis, analogue electronics, we ran through a lot in those 5 years.
+  
+  Right out of university I was soon becoming a father, and I got an offer to take up the role as an electronics engineer at a stable local company. Needless to say, it was a great start, the work was rewarding and I was learning brand new things everyday. 3.5 years down the line I decided to make a change, I realized that I wanted to change direction into Software Engineering. This is because I never stopped coding on my free time.
+  
+  In early 2019 and after about 9 months of self study into the React eco-system, and web development, I landed my current job as a Software Development Engineer, and Remote has been a great experience for me.
+  `,
 }
 
 export const workExperience = [
   {
-    jobPosition: "Sofware Development Engineer",
+    jobPosition: "Software Development Engineer",
     company: {
       name: "Tiket.com",
       location: "Vancouver, Canada. (Remote)",
@@ -25,15 +32,13 @@ export const workExperience = [
     startMonth: "08",
     endYear: null,
     endMonth: null,
-    description: `
-    I work remotely mainly with HQ in Jakarta on the Tiket ToDo team, but I am under the Canadian office based in Vancouver. Our team focuses on events and attractions and have building out a platform to cater that segment of the business. I do front-end development in React on our B2B Admin site, and also with React Native on the Android / iOS applications.
-
-    Our stack as mentioned above revolves around the React eco-system, we also use Redux, Styled Components, Jest, Detox and much more.  
-        `,
+    description: `I work remotely mainly with HQ in Jakarta on the Tiket ToDo team, but I am under the Canadian office based in Vancouver. Our team focuses on events and attractions and have building out a platform to cater that segment of the business. I do front-end development in React on our B2B Admin site, and also with React Native on the Android / iOS applications.
+    Our stack as mentioned above revolves around the React eco-system, we also use Redux, Styled Components, Jest, Detox and much more.
+    `,
     projects: [],
   },
   {
-    jobPosition: "Senior Robotics Hardware Engineer",
+    jobPosition: "Senior Robotics HW Engineer",
     company: {
       name: "Mutian Robotics",
       location: "Hangzhou, China",
@@ -78,9 +83,9 @@ export const workExperience = [
     projects: [],
   },
   {
-    jobPosition: "Software Engineer Intern",
+    jobPosition: "Software Engineer Internship",
     company: {
-      name: "Wayne Fueling Systems (GE Oil & Gas",
+      name: "Wayne Fueling Systems (GE Oil & Gas)",
       location: "Malmö, Sweden",
       url: "https://wayne.com/",
     },
@@ -92,7 +97,7 @@ export const workExperience = [
     description: `Development of automated hardware tests using National Intruments LabView & Machine Vision`,
   },
   {
-    jobPosition: "Embedded Engineer Intern",
+    jobPosition: "Embedded Engineer Internship",
     company: {
       name: "Electrolux",
       location: "Shanghai, China",

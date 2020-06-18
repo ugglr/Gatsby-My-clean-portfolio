@@ -1,13 +1,17 @@
 import React from "react"
+import ReactMarkdown from "react-markdown"
+
+import card from "./aboutCard.module.css"
 
 function AboutCard(props) {
   const { title, subtitle, body } = props
 
   return (
-    <div>
+    <div className={card.container}>
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
-      <p>{body}</p>
+
+      <ReactMarkdown className={card.body} source={body} />
     </div>
   )
 }
