@@ -82,14 +82,13 @@
     width: 100%;
 
     border-right-width: 0px;
-
-    border-bottom-color: blueviolet;
-    border-bottom-width: 3.5px;
-    border-bottom-style: solid;
   }
   .middleText {
     padding-top: 0px;
     padding-bottom: 0;
+  }
+  .subRowContainer {
+    margin-top: 0.5rem;
   }
   .descriptionContainer {
     border-left-width: 0px;
