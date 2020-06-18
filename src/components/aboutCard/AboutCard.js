@@ -8,8 +8,21 @@ function AboutCard(props) {
 
   return (
     <div className={card.container}>
-      <h2>{title}</h2>
-      <h3>{subtitle}</h3>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div className={card.titleWrapper}>
+          <h2>{title}</h2>
+        </div>
+      </div>
+
+      <div className={card.subtitleWrapper}>
+        <h3>{subtitle}</h3>
+      </div>
 
       <ReactMarkdown className={card.body} source={body} />
     </div>

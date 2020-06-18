@@ -7,7 +7,7 @@ export const jumboContent = {
 
 export const summary = {
   title: "Summary",
-  subtitle: "I love Coffee. I mean, more than people normaly like coffee",
+  subtitle: "I love Coffee. I mean, more than people normally love coffee",
   body: `
   I currently live in Hangzhou, China, a really exciting city, and my wifes hometown. My career goal is that I want to build things that are new, refreshing, and makes a difference for others. I really enjoy solving tough problems.
 
