@@ -39,8 +39,8 @@
 
 .middleText {
   color: blueviolet;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .subRowContainer {
@@ -98,17 +98,14 @@
 
 @media (max-width: 518px) {
   .jobTitleContainer h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .dateTextContainer h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 
 @media (max-width: 350px) {
-  .jobTitleContainer h1 {
-    font-size: 3rem;
-  }
   .dateTextContainer h1 {
     font-size: 2rem;
   }

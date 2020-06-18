@@ -5,25 +5,22 @@
 
 .titleWrapper {
   width: 100%;
-  background-color: blueviolet;
   padding: 16px 16px;
   border-radius: 4px;
-  margin-bottom: 2.5rem;
-  margin-right: 16px;
   text-align: center;
-  box-shadow: 16px 16px 1px 0 pink;
 }
 
 .titleWrapper h2 {
   font-size: 3rem;
-  color: white;
 }
 
 .subtitleWrapper {
-  background-color: palegreen;
   padding: 16px 16px;
   margin-bottom: 1rem;
-  text-align: center;
+  border-left-style: solid;
+  border-left-color: blueviolet;
+  border-left-width: 5px;
+  background-color: #f1f1f1;
 }
 
 .subtitleWrapper h2 {

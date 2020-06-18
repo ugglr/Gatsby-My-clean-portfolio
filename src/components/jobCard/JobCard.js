@@ -25,7 +25,7 @@ function JobCard(props) {
         <div className={card.dateTextContainer}>
           <h1>{startYear}</h1>
           <h1>{startMonth}</h1>
-          <h1 className={card.middleText}>--></h1>
+          <h1 className={card.middleText}>---</h1>
           {present ? (
             <h1>NOW</h1>
           ) : (

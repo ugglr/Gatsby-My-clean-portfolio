@@ -7,7 +7,7 @@
   margin-bottom: 2.5rem;
 }
 .summary_title {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 580;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
@@ -26,11 +26,11 @@
   margin-top: 2rem;
   margin-bottom: 4rem;
   font-weight: 590;
-  background-color: blueviolet;
-  color: white;
+  border-left-color: blueviolet;
+  border-left-width: 5px;
+  border-left-style: solid;
   padding: 16px 16px;
-  box-shadow: 16px 16px 1px 0 pink;
-  margin-right: 16px;
+  background-color: #f1f1f1;
 }
 
 .summary_row {

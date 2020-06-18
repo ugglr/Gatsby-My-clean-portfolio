@@ -83,7 +83,7 @@ export const workExperience = [
     projects: [],
   },
   {
-    jobPosition: "Software Engineer Internship",
+    jobPosition: "Software Engineering Intern",
     company: {
       name: "Wayne Fueling Systems (GE Oil & Gas)",
       location: "Malmö, Sweden",
@@ -97,7 +97,7 @@ export const workExperience = [
     description: `Development of automated hardware tests using National Intruments LabView & Machine Vision`,
   },
   {
-    jobPosition: "Embedded Engineer Internship",
+    jobPosition: "Embedded Engineering Intern",
     company: {
       name: "Electrolux",
       location: "Shanghai, China",
