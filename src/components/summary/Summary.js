@@ -106,7 +106,7 @@ const Summary = () => (
     <br />
     <h4 style={{ marginTop: "0.5rem" }} className="goal_text text-center">
       I'm constantly experimenting with new things, give me a follow or join the
-      fun through the magic of open-source on GitHub.
+      through the magic of open-source on GitHub.
     </h4>
   </Container>
 )
