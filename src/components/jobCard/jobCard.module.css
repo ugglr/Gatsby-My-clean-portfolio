@@ -73,6 +73,7 @@
 @media (max-width: 740px) {
   .jobTitleContainer {
     width: 100%;
+    margin-bottom: 1.5rem;
   }
 
   .dateTextContainer {

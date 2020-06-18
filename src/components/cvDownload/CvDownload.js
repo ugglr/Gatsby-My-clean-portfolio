@@ -12,7 +12,7 @@ function CvDownload() {
   return (
     <div className={cv.container}>
       <MyButton text={"CV download"} URL={CV} />
-      <MyButton text={"University Course list"} URL={courses} />
+      <MyButton text={"University Courses"} URL={courses} />
     </div>
   )
 }

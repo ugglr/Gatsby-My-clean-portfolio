@@ -24,7 +24,7 @@ export const workExperience = [
     jobPosition: "Software Development Engineer",
     company: {
       name: "Tiket.com",
-      location: "Vancouver, Canada. (Remote)",
+      location: "Remote (Canada Office)",
       url: "https://www.tiket.com",
     },
     present: true,
