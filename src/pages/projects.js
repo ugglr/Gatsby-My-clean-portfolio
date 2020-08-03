@@ -58,6 +58,7 @@ export default () => (
                   leftButtonText={p.leftButtonText}
                   hostedURL={p.hostedURL}
                   rightButtonText={p.rightButtonText}
+                  tech={p.tech}
                 />
               </Col>
             </Row>
