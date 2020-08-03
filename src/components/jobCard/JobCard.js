@@ -1,6 +1,5 @@
 import React from "react"
 import card from "./jobCard.module.css"
-import ReactMarkdown from "react-markdown"
 
 function JobCard(props) {
   const {
@@ -14,7 +13,7 @@ function JobCard(props) {
     description,
   } = props
 
-  const { name, location, url } = company
+  const { name, location } = company
 
   return (
     <div className={card.container}>

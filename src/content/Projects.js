@@ -1,10 +1,48 @@
 export const PROJECTS = [
   {
+    img: require("../images/portfolio/storybook.png"),
+    title: "React Native Storybook Boilerplate",
+    date: "2020-07-28",
+    tags: ["open-source"],
+    roles: ["frontend", "mobile"],
+    tech: [
+      "react",
+      "react native",
+      "react native web",
+      "storybook",
+      "babel",
+      "webpack",
+    ],
+    description:
+      "Building a UI library for React Native together with storybook is a good experience, but it's hard to display the components on the web, therefore I want to transpile the react-native component through the react-native-web project so I can display them easily on the web. It's the ultimate library development setup meant for kickstarting ui library development for react-native.",
+    sourceURL: "https://github.com/ugglr/react-native-storybook-boilerplate",
+    hostedURL: "https://rn-sb-boilerplate.netlify.app",
+  },
+  {
+    img: require("../images/portfolio/brewtime.png"),
+    title: "WIP: Brewtime.",
+    date: "2020-03-03",
+    tags: ["open-source"],
+    roles: ["frontend", "backend", "mobile"],
+    tech: [
+      "react",
+      "react native",
+      "expressjs",
+      "graphql",
+      "apollo-server",
+      "styled components",
+    ],
+    description:
+      "Brewtime is a fake work in progress project where I'm learning to build a full cycle, fullstack, web + mobile application. Graphql backend is running Express / Apollo server, frontend is made using react and mobile (iOS/ Android) using react native. Authentication flow will be JWT based.",
+    hostedURL: "https://brewtime.app",
+    rightButtonText: "Landing Page",
+  },
+  {
     img: require("../images/portfolio/ignis.png"),
     title: "Ignis by Tiket",
     date: "2020-06-03",
     tags: ["work"],
-    roles: ["Frontend"],
+    roles: ["frontend", "mobile"],
     tech: [
       "React Native",
       "React Native Camera",
@@ -13,7 +51,7 @@ export const PROJECTS = [
       "Styled Components",
     ],
     description:
-      "Events management app. This app helps to support Tiket.com ToDo Partners by giving robust functionality in managing their inventory orders. You can easily find customer information and ticket redemption details in real-time. Architected by a beloved tech-lead who sadly departed the team, otherwise I'm the only developer on the apps. iOS coming soon.",
+      "Events inventory management app. This app helps to support Tiket.com ToDo Partners by giving robust functionality in managing their inventory orders. You can easily find customer information and ticket redemption details in real-time. Architected by a beloved tech-lead who sadly departed the team, otherwise I'm the only developer on the apps. iOS coming soon.",
     hostedURL:
       "https://play.google.com/store/apps/details?id=com.tiketeventsmerchants",
     rightButtonText: "Google Play Store",
