@@ -17,12 +17,19 @@
     0 16px 16px rgba(0, 0, 0, 0.12);
 }
 
+.left {
+  flex: 1;
+  margin: 12px;
+  min-width: 15rem;
+}
+
 .right {
   display: flex;
   flex: 1;
   flex-direction: column;
   margin: 12px;
   justify-content: space-between;
+  min-width: 15rem;
 }
 
 .underline {

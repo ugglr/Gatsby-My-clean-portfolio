@@ -26,7 +26,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="project_container">
-      <div style={{ flex: 1, margin: "12px" }}>
+      <div className="left">
         <img
           src={imageSrcPath}
           alt={"Smiley face"}
@@ -44,7 +44,6 @@ const ProjectCard = ({
         {tech && tech.length > 0 ? (
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             {tech.map(AString => {
-              console.log(AString)
               return (
                 <div
                   style={{
