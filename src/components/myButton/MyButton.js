@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./MyButton.module.css"
+import styles from "./myButton.module.css"
 
 //########## PROPS INPUT ###############
 //text: the text displayed in the button
