@@ -3,8 +3,8 @@ export const PROJECTS = [
     img: require("../images/portfolio/storybook.png"),
     title: "React Native Storybook Boilerplate",
     date: "2020-07-28",
-    tags: ["open-source"],
-    roles: ["frontend", "mobile"],
+    tags: ["open-source", "frontend", "mobile"],
+    roles: [],
     tech: [
       "react",
       "react native",
@@ -22,8 +22,7 @@ export const PROJECTS = [
     img: require("../images/portfolio/brewtime.png"),
     title: "WIP: Brewtime.",
     date: "2020-03-03",
-    tags: ["open-source"],
-    roles: ["frontend", "backend", "mobile"],
+    tags: ["open-source", "frontend", "backend", "mobile"],
     tech: [
       "react",
       "react native",
@@ -41,8 +40,7 @@ export const PROJECTS = [
     img: require("../images/portfolio/ignis.png"),
     title: "Ignis by Tiket",
     date: "2020-06-03",
-    tags: ["work"],
-    roles: ["frontend", "mobile"],
+    tags: ["work", "frontend", "mobile"],
     tech: [
       "React Native",
       "React Native Camera",
@@ -60,6 +58,8 @@ export const PROJECTS = [
     img: "https://miro.medium.com/max/1400/1*xDi2csEAWxu95IEkaNdFUQ.png",
     title: "react-native-value-picker",
     date: "2020-05-18",
+    tags: ["open-source"],
+    tech: ["react-native", "npm", "npm-package"],
     description:
       "The Native picker on Android is a modal / dropdown design which is vastly different from the native iOS picker. In my current project we wanted a design more similar to the iOS native picker, and thus I created this Scroll Picker as a replacement on Android, but it works equally well on iOS for instance as an alternative to @react-native-community/picker native iOS picker module.",
     sourceURL: "https://github.com/ugglr/react-native-value-picker",
@@ -70,6 +70,8 @@ export const PROJECTS = [
     img: "https://miro.medium.com/max/1200/0*11eDqY4zA04y2_n6.jpg",
     title: "REST-Express-Mongo-Backend-Boilerplate",
     date: "2020-01-18",
+    tags: ["open-source"],
+    tech: ["expressjs", "rest", "JWT", "mongoose", "mongodb"],
     description:
       "Hit the ground running with this powerful production worthy REST Backend API Boilerplate. Comes with user models, password hashing and sending JWT. Stack: Node, Express, MongoDB+Mongoose.",
     sourceURL:
@@ -81,6 +83,7 @@ export const PROJECTS = [
       "https://i2.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/06/GraphQL.png?resize=730%2C389&ssl=1",
     title: "Graphql-Express-Apollo-Backend-Boilerplate",
     date: "2019-12-31",
+    tech: ["expressjs", "graphql", "apollo-server", "mongoose", "mongodb"],
     description:
       "Hit the ground running with this powerful production worthy Graphql Backend Boilerplate. Comes with basic user models & resolvers, password hashing etc. Scale-able file-structure.",
     sourceURL:
@@ -91,6 +94,7 @@ export const PROJECTS = [
     img: require("../images/portfolio/16by9/django-rest-react-crud.jpg"),
     title: "Django-React Fullstack Notemanager",
     date: "2019-05-06",
+    tech: ["react", "django", "python", "rest"],
     description:
       "Fullstack REST-API Notemanager app running Django as a backend and react for building the UI. The REST-API is built using the Django Rest API framework and the JSX is served as a single page into Django Template using webpack. Instructions for local setup in repo.",
     sourceURL: "https://github.com/ugglr/django-react-note-manager",
@@ -137,6 +141,7 @@ export const PROJECTS = [
     img: require("../images/portfolio/16by9/weather-app.jpg"),
     title: "React Weather-API App",
     date: "2019-02-12",
+    tech: ["react", "axios", "rest"],
     description:
       "This app uses async-await + fetch to grab weather data from openweathermap.org open API. Bootstrap 4 CSS classes are used for styling",
     sourceURL: "https://github.com/ugglr/react-API-weather-app",

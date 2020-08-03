@@ -1,19 +1,20 @@
 import React from "react"
 
-import { Col } from "react-bootstrap"
-
-import "./myButton.css"
+import styles from "./MyButton.module.css"
 
 //########## PROPS INPUT ###############
 //text: the text displayed in the button
 //URL: the link the button goes to
 
 const MyButton = props => (
-  <Col sm={6}>
-    <a href={props.URL} target="_blank" rel="noopener noreferrer">
-      <div className="button_styles text-center">{props.text}</div>
-    </a>
-  </Col>
+  <a
+    className={styles.button_styles}
+    href={props.URL}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {props.text}
+  </a>
 )
 
 export default MyButton
