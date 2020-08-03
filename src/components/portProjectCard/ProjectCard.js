@@ -1,5 +1,4 @@
 import React from "react"
-import { Row, Col } from "react-bootstrap"
 
 import "./projectCard.css"
 import MyButton from "../myButton/MyButton"
@@ -14,47 +13,72 @@ import MyButton from "../myButton/MyButton"
 //hostedURL: URL to the hosted version of the app
 //rightButtonText: changes the right button text
 
-const ProjectCard = props => {
-  console.log("CARD PROPS", props)
+const ProjectCard = ({
+  imageSrcPath,
+  title,
+  date,
+  description,
+  sourceURL,
+  leftButtonText,
+  hostedURL,
+  rightButtonText,
+  tech,
+}) => {
   return (
     <div className="project_container">
-      <Row>
-        <Col>
-          <img
-            src={props.imageSrcPath}
-            alt={"Smiley face"}
-            style={{ width: "100%", objectFit: "contain" }}
-          />
-        </Col>
-        <Col>
-          <h4>
-            {props.title}
-            <br />
-            <small>{props.date}</small>
-          </h4>
+      <div className="left">
+        <img
+          src={imageSrcPath}
+          alt={"Smiley face"}
+          style={{ width: "100%", objectFit: "contain" }}
+        />
+      </div>
 
-          <p>{props.description}</p>
+      <div className="right">
+        <h4>
+          {title}
+          <br />
+          <small>{date}</small>
+        </h4>
 
-          <Row>
-            {props.sourceURL && props.sourceURL.length > 0 && (
-              <MyButton
-                text={
-                  props.leftButtonText ? props.leftButtonText : "Source Code"
-                }
-                URL={props.sourceURL}
-              />
-            )}
-            {props.hostedURL && props.hostedURL.length > 0 && (
-              <MyButton
-                text={
-                  props.rightButtonText ? props.rightButtonText : "Hosted App"
-                }
-                URL={props.hostedURL}
-              />
-            )}
-          </Row>
-        </Col>
-      </Row>
+        {tech && tech.length > 0 ? (
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            {tech.map(AString => {
+              return (
+                <div
+                  style={{
+                    backgroundColor: "blueviolet",
+                    borderRadius: "4px",
+                    marginRight: "5px",
+                    marginBottom: "5px",
+                    color: "white",
+                    padding: "5px",
+                  }}
+                >
+                  {AString}
+                </div>
+              )
+            })}
+          </div>
+        ) : null}
+
+        <p>{description}</p>
+
+        <div style={{ display: "flex" }}>
+          {sourceURL && sourceURL.length > 0 && (
+            <MyButton
+              text={leftButtonText ? leftButtonText : "Source Code"}
+              URL={sourceURL}
+            />
+          )}
+          {hostedURL && hostedURL.length > 0 && (
+            <MyButton
+              text={rightButtonText ? rightButtonText : "Hosted App"}
+              URL={hostedURL}
+            />
+          )}
+        </div>
+      </div>
     </div>
   )
 }
