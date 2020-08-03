@@ -49,6 +49,7 @@ const ProjectCard = ({
                 <div
                   style={{
                     backgroundColor: "blueviolet",
+                    borderRadius: "4px",
                     marginRight: "5px",
                     marginBottom: "5px",
                     color: "white",
