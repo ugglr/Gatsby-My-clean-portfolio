@@ -1,0 +1,9 @@
+.base {
+  background-color: blueviolet;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}

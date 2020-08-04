@@ -17,6 +17,10 @@
     0 16px 16px rgba(0, 0, 0, 0.12);
 }
 
+.date_text {
+  margin-bottom: 8px;
+}
+
 .left {
   flex: 1;
   margin: 12px;

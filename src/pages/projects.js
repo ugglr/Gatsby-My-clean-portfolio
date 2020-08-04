@@ -45,25 +45,39 @@ export default () => (
       //leftButtonText: changes the left button text
       //hostedURL: URL to the hosted version of the app
       //rightButtonText: changes the right button text*/}
-        {PROJECTS.map(p => {
-          return (
-            <Row>
-              <Col>
-                <ProjectCard
-                  imageSrcPath={p.img}
-                  title={p.title}
-                  date={p.date}
-                  description={p.description}
-                  sourceURL={p.sourceURL}
-                  leftButtonText={p.leftButtonText}
-                  hostedURL={p.hostedURL}
-                  rightButtonText={p.rightButtonText}
-                  tech={p.tech}
-                />
-              </Col>
-            </Row>
-          )
-        })}
+        {PROJECTS.map(
+          ({
+            img,
+            title,
+            date,
+            description,
+            leftButtonText,
+            hostedURL,
+            rightButtonText,
+            sourceURL,
+            tech,
+            tags,
+          }) => {
+            return (
+              <Row>
+                <Col>
+                  <ProjectCard
+                    imageSrcPath={img}
+                    title={title}
+                    date={date}
+                    description={description}
+                    sourceURL={sourceURL}
+                    leftButtonText={leftButtonText}
+                    hostedURL={hostedURL}
+                    rightButtonText={rightButtonText}
+                    tech={tech}
+                    tags={tags}
+                  />
+                </Col>
+              </Row>
+            )
+          }
+        )}
       </Container>
     </Layout>
   </div>
