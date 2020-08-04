@@ -26,7 +26,7 @@ const socials = [
 
 const SocialRow = props => {
   const defaultColor = "black"
-  console.log("socialrow", props)
+
   return (
     <div className="jumbo_social text-center">
       {socials.map(({ url, icon }) => {

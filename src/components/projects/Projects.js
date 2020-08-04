@@ -7,7 +7,18 @@ import { PROJECTS } from "../../content/Projects"
 import "./projects.css"
 
 const Projects = () => {
-  const { img, title, date, description, sourceURL, hostedURL } = PROJECTS[0]
+  const {
+    img,
+    title,
+    date,
+    description,
+    sourceURL,
+    leftButtonText,
+    hostedURL,
+    rightButtonText,
+    tags,
+    tech,
+  } = PROJECTS[0]
   return (
     <React.Fragment>
       <Container fluid>
@@ -25,7 +36,11 @@ const Projects = () => {
           date={date}
           description={description}
           sourceURL={sourceURL}
+          leftButtonText={leftButtonText}
           hostedURL={hostedURL}
+          rightButtonText={rightButtonText}
+          tags={tags}
+          tech={tech}
         />
         <Link to="/projects" className="blueViolet">
           Go to Projects page ---->

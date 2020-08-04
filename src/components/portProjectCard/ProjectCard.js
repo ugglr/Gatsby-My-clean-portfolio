@@ -2,6 +2,7 @@ import React from "react"
 
 import "./projectCard.css"
 import MyButton from "../myButton/MyButton"
+import Tag from "../Tag"
 
 //Props:
 //imageSrcPath: the path to the image used
@@ -23,6 +24,7 @@ const ProjectCard = ({
   hostedURL,
   rightButtonText,
   tech,
+  tags,
 }) => {
   return (
     <div className="project_container">
@@ -35,34 +37,42 @@ const ProjectCard = ({
       </div>
 
       <div className="right">
-        <h4>
-          {title}
-          <br />
-          <small>{date}</small>
-        </h4>
+        <h4>{title}</h4>
+        <small className="date_text">{date}</small>
 
-        {tech && tech.length > 0 ? (
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-            {tech.map(AString => {
-              return (
-                <div
-                  style={{
-                    backgroundColor: "blueviolet",
-                    borderRadius: "4px",
-                    marginRight: "5px",
-                    marginBottom: "5px",
-                    color: "white",
-                    padding: "5px",
-                  }}
-                >
-                  {AString}
-                </div>
-              )
-            })}
-          </div>
+        {tags && tags.length > 0 ? (
+          <>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                alignItems: "center",
+              }}
+            >
+              {tags.map(AString => {
+                return <Tag>{AString}</Tag>
+              })}
+            </div>
+          </>
         ) : null}
 
         <p>{description}</p>
+
+        {tech && tech.length > 0 ? (
+          <>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                marginBottom: "16px",
+              }}
+            >
+              {tech.map(AString => {
+                return <Tag randomAccent>{AString}</Tag>
+              })}
+            </div>
+          </>
+        ) : null}
 
         <div style={{ display: "flex" }}>
           {sourceURL && sourceURL.length > 0 && (

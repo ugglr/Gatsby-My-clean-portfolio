@@ -6,14 +6,14 @@ import styles from "./myButton.module.css"
 //text: the text displayed in the button
 //URL: the link the button goes to
 
-const MyButton = props => (
+const MyButton = ({ text, URL }) => (
   <a
     className={styles.button_styles}
-    href={props.URL}
+    href={URL}
     target="_blank"
     rel="noopener noreferrer"
   >
-    {props.text}
+    {text}
   </a>
 )
 
