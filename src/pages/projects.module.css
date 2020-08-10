@@ -1,0 +1,9 @@
+.projects_container {
+  margin-top: 2.5rem;
+  padding: 16px;
+}
+
+.filter_container {
+  width: 100%;
+  display: flex;
+}
