@@ -3,18 +3,10 @@ import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import ProjectCard from "../components/portProjectCard/ProjectCard"
 
-import { PROJECTS } from "../content/Projects"
+import { PROJECTS, PAGE_CONTENT } from "../content/Projects"
 
 import styles from "./projects.module.css"
 import "./index.css"
-
-/*
-######### PROJECT OBJECTS TEMPLATE################
-import projectPicture from ""
-const projectProject = {
-}
-#####################################################
-*/
 
 export default () => {
   const [projects, setProjects] = useState([])
@@ -22,6 +14,7 @@ export default () => {
   const [filters, setFilters] = useState([])
 
   const loadProjects = () => {
+    const availableFilters = () => {}
     const filteredProjects = PROJECTS.filter(project => {
       if (filter === null) {
         console.log("filter null")
@@ -46,10 +39,8 @@ export default () => {
     body: The body of the Jumbotron
     */}
         <MyJumbo
-          title={"Projects Portfolio"}
-          body={
-            "I think the best way of learning is by getting down to coding and build. I really appreciate feedback on anything that I have built!"
-          }
+          title={PAGE_CONTENT.JUMBO.title}
+          body={PAGE_CONTENT.JUMBO.body}
         />
         <hr />
         <div className={styles.projects_container}>

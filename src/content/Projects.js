@@ -1,3 +1,11 @@
+export const PAGE_CONTENT = {
+  JUMBO: {
+    title: "Projects Portfolio",
+    body:
+      "I think the best way of learning is by getting down to coding and build. I really appreciate feedback on anything that I have built!",
+  },
+}
+
 export const PROJECTS = [
   {
     img: require("../images/portfolio/storybook.png"),
