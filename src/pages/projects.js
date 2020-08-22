@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import ProjectCard from "../components/portProjectCard/ProjectCard"
+import Tag from "../components/Tag"
 
 import { PROJECTS, PAGE_CONTENT } from "../content/Projects"
 
@@ -13,23 +14,36 @@ export default () => {
   const [filter, setFilter] = useState(null)
   const [filters, setFilters] = useState([])
 
+  const availableFilters = () => {
+    const tempArray = []
+    PROJECTS.forEach(project => {
+      project.tags.forEach(techString => {
+        if (!tempArray.includes(techString)) {
+          tempArray.push(techString)
+        }
+      })
+    })
+    setFilters(tempArray)
+  }
+
   const loadProjects = () => {
-    const availableFilters = () => {}
     const filteredProjects = PROJECTS.filter(project => {
-      if (filter === null) {
+      if (!filter) {
         console.log("filter null")
         return true
       }
-      return project.tech.includes(filter)
+      return project.tags.includes(filter)
     })
     setProjects(filteredProjects)
   }
 
   useEffect(() => {
+    console.log("loading filters")
+    availableFilters()
     console.log("loading projects into state")
     loadProjects()
     console.log("State projects", projects)
-  }, [])
+  }, [filter])
 
   return (
     <div className="App">
@@ -43,8 +57,15 @@ export default () => {
           body={PAGE_CONTENT.JUMBO.body}
         />
         <hr />
+        <div className={styles.filter_container}>
+          <p>Click to filter:</p>
+          {filters.map(filter => (
+            <div onClick={() => setFilter(filter)}>
+              <Tag>{filter}</Tag>
+            </div>
+          ))}
+        </div>
         <div className={styles.projects_container}>
-          <div className={styles.filter_container}></div>
           {/*/Props: 
       //imageSrcPath: the path to the image used 
       //title: The title of the card/App 

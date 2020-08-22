@@ -90,6 +90,7 @@ export const PROJECTS = [
       "https://i2.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/06/GraphQL.png?resize=730%2C389&ssl=1",
     title: "Graphql-Express-Apollo-Backend-Boilerplate",
     date: "2019-12-31",
+    tags: ["backend"],
     tech: ["expressjs", "graphql", "apollo-server", "mongoose", "mongodb"],
     description:
       "Hit the ground running with this powerful production worthy Graphql Backend Boilerplate. Comes with basic user models & resolvers, password hashing etc. Scale-able file-structure.",
