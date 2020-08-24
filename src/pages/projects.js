@@ -6,6 +6,7 @@ import Tag from "../components/Tag"
 
 import { PROJECTS, PAGE_CONTENT } from "../content/Projects"
 
+import { WARNING } from "../Theme/colors"
 import styles from "./projects.module.css"
 import "./index.css"
 
@@ -58,13 +59,27 @@ export default () => {
         />
         <hr />
         <div className={styles.filter_container}>
-          <p>Click to filter:</p>
-          {filters.map(filter => (
-            <div onClick={() => setFilter(filter)}>
-              <Tag>{filter}</Tag>
+          <p className={styles.filter_text}>Filter:</p>
+          {filters.map(f => (
+            <div
+              onClick={() => {
+                if (filter === f) {
+                  setFilter(null)
+                } else {
+                  setFilter(f)
+                }
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              {f === filter ? <Tag>{f}</Tag> : <Tag outline>{f}</Tag>}
             </div>
           ))}
         </div>
+        {filter && (
+          <div onClick={() => setFilter(null)} style={{ cursor: "pointer" }}>
+            <Tag warning>clear</Tag>
+          </div>
+        )}
         <div className={styles.projects_container}>
           {/*/Props: 
       //imageSrcPath: the path to the image used 
