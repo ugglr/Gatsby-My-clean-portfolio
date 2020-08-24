@@ -1,4 +1,7 @@
 .base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: blueviolet;
   border-radius: 4px;
   margin-right: 5px;

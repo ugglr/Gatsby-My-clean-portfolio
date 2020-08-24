@@ -4,47 +4,38 @@ import getRandomColor from "../helpers/getRandomColor"
 import getRandomAccentColor from "../helpers/getRandomAccentColor"
 import getRandomStatusColor from "../helpers/getRandomStatusColor"
 
-function Tag({ children, randomAccent, randomStatus, random }) {
-  if (randomAccent)
-    return (
-      <div
-        className={styles.base}
-        style={{
-          backgroundColor: getRandomAccentColor(),
-          color: "black",
-        }}
-      >
-        {children}
-      </div>
-    )
+import { MAIN, WARNING } from "../Theme/colors"
 
-  if (randomStatus)
-    return (
-      <div
-        className={styles.base}
-        style={{
-          backgroundColor: getRandomStatusColor(),
-          color: "black",
-        }}
-      >
-        {children}
-      </div>
-    )
+function Tag({
+  children,
+  randomAccent,
+  randomStatus,
+  random,
+  outline,
+  warning,
+}) {
+  const getType = () => {
+    if (randomAccent)
+      return { backgroundColor: getRandomAccentColor(), color: "black" }
+    if (randomStatus)
+      return { backgroundColor: getRandomStatusColor(), color: "black" }
+    if (random) return { backgroundColor: getRandomColor(), color: "black" }
+    if (outline)
+      return {
+        backgroundColor: "white",
+        color: MAIN,
+        borderColor: MAIN,
+        borderWidth: 1,
+        borderStyle: "solid",
+      }
+    if (warning) return { backgroundColor: WARNING }
+  }
 
-  if (random)
-    return (
-      <div
-        className={styles.base}
-        style={{
-          backgroundColor: getRandomColor(),
-          color: "black",
-        }}
-      >
-        {children}
-      </div>
-    )
-
-  return <div className={styles.base}>{children}</div>
+  return (
+    <div className={styles.base} style={getType()}>
+      {children}
+    </div>
+  )
 }
 
 export default Tag
