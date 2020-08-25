@@ -40,7 +40,7 @@ const MyNavbar = () => (
       <ul className={nav.nav_styles}>
         <li className={nav.float_left}>
           <Link to="/">
-            <img src={logo} alt={"Smiley face"} class={nav.logo} />
+            <img src={logo} alt={"Smiley face"} className={nav.logo} />
           </Link>
         </li>
         <li className={nav.float_right}>
@@ -54,9 +54,9 @@ const MyNavbar = () => (
             GitHub
           </a>
         </li>
-        {Links.map(({ title, url }) => {
+        {Links.map(({ title, url }, i) => {
           return (
-            <li className={nav.float_right}>
+            <li key={i} className={nav.float_right}>
               <Link to={url} className={nav.nav_menu_link}>
                 {title}
               </Link>

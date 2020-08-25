@@ -9,18 +9,19 @@ import "../fontawesome/css/all.min.css"
 import "./index.css"
 
 import { jumboContent, summary, workExperience } from "../content/about"
+import { socials } from "../content/shared"
 
 export default () => {
   return (
     <div className="App">
       <Layout>
-        <MyJumbo {...jumboContent} />
+        <MyJumbo {...jumboContent} socials={socials} />
         <hr />
         <CvDownload />
         <AboutCard {...summary} />
 
-        {workExperience.map(job => {
-          return <JobCard {...job} />
+        {workExperience.map((job, i) => {
+          return <JobCard key={i} {...job} />
         })}
       </Layout>
     </div>

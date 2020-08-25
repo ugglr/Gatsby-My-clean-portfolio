@@ -7,7 +7,7 @@ import styles from "./footer.module.css"
 import "../../fontawesome/css/all.min.css"
 
 import { links, subtitle } from "../../content/footer"
-import { email, name } from "../../content/shared"
+import { email, name, socials } from "../../content/shared"
 
 const Footer = () => (
   <div className={styles.container}>
@@ -49,7 +49,7 @@ const Footer = () => (
       })}
     </div>
     <div className={styles.footer_social}>
-      <SocialRow color="white" />
+      <SocialRow color="white" socialsArray={socials} />
     </div>
     <div className="text-center" style={{ marginTop: "3rem" }}>
       {name} © {new Date().getFullYear()}, Built with
