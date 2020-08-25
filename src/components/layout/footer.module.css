@@ -1,6 +1,6 @@
-.container {
+.outer_container {
+  display: flex;
   width: 100%;
-  max-width: 960px;
   margin-top: 3rem;
   margin-bottom: 0;
   padding: 21px 16px 16px 16px;
@@ -10,6 +10,11 @@
   border-top-style: solid;
   border-width: 2px;
   border-color: blueviolet;
+  justify-content: center;
+}
+
+.inner_container {
+  max-width: 960px;
 }
 
 .footer_social {
