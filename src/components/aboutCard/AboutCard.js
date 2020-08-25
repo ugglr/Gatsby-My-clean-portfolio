@@ -3,9 +3,7 @@ import ReactMarkdown from "react-markdown"
 
 import card from "./aboutCard.module.css"
 
-function AboutCard(props) {
-  const { title, subtitle, body } = props
-
+function AboutCard({ title, subtitle, body }) {
   return (
     <div className={card.container}>
       <div

@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./socialRow.module.css"
 
-import "../../fontawesome/css/all.min.css"
+import "../../assets/fontawesome/css/all.min.css"
 
 const socials = [
   {

@@ -5,7 +5,7 @@ import SocialRow from "../SocialRow/SocialRow"
 import { Link } from "gatsby"
 
 import footer from "./footer.module.css"
-import "../../fontawesome/css/all.min.css"
+import "../../assets/fontawesome/css/all.min.css"
 
 const Links = [
   {

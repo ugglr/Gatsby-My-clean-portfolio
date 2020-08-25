@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import nav from "./myNavbar.module.css"
 
-const logo = require("../../images/logo.png")
+const logo = require("../../assets/images/logo.png")
 
 const Links = [
   {

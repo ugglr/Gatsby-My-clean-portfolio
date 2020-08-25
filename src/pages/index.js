@@ -12,7 +12,7 @@ import Projects from "../components/projects/Projects"
 import { hero_content } from "../content/home"
 
 //import bootstrap styles
-import "../bootstrap/css/bootstrap.min.css"
+import "../assets/bootstrap/css/bootstrap.min.css"
 
 //import my custom styles
 import "./index.css"

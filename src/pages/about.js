@@ -5,7 +5,7 @@ import CvDownload from "../components/cvDownload/CvDownload"
 import AboutCard from "../components/aboutCard/AboutCard"
 import JobCard from "../components/jobCard/JobCard"
 
-import "../fontawesome/css/all.min.css"
+import "../assets/fontawesome/css/all.min.css"
 import "./index.css"
 
 import { jumboContent, summary, workExperience } from "../content/about"

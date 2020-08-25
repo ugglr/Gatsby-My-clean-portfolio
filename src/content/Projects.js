@@ -8,7 +8,7 @@ export const PAGE_CONTENT = {
 
 export const PROJECTS = [
   {
-    img: require("../images/portfolio/storybook.png"),
+    img: require("../assets/images/portfolio/storybook.png"),
     title: "React Native Storybook Boilerplate",
     date: "2020-07-28",
     tags: ["frontend", "mobile"],
@@ -26,7 +26,7 @@ export const PROJECTS = [
     hostedURL: "https://rn-sb-boilerplate.netlify.app",
   },
   {
-    img: require("../images/portfolio/brewtime.png"),
+    img: require("../assets/images/portfolio/brewtime.png"),
     title: "WIP: Brewtime.",
     date: "2020-03-03",
     tags: ["frontend", "backend", "mobile"],
@@ -44,7 +44,7 @@ export const PROJECTS = [
     rightButtonText: "Landing Page",
   },
   {
-    img: require("../images/portfolio/ignis.png"),
+    img: require("../assets/images/portfolio/ignis.png"),
     title: "Ignis by Tiket",
     date: "2020-06-03",
     tags: ["work", "frontend", "mobile"],
@@ -99,7 +99,7 @@ export const PROJECTS = [
     hostedURL: "",
   },
   {
-    img: require("../images/portfolio/16by9/django-rest-react-crud.jpg"),
+    img: require("../assets/images/portfolio/16by9/django-rest-react-crud.jpg"),
     title: "Django-React Fullstack Notemanager",
     date: "2019-05-06",
     tags: ["frontend", "backend"],
@@ -110,7 +110,7 @@ export const PROJECTS = [
     hostedURL: "",
   },
   {
-    img: require("../images/portfolio/16by9/currency-wallet.jpg"),
+    img: require("../assets/images/portfolio/16by9/currency-wallet.jpg"),
     title: "Gatsby React Currency Wallet",
     date: "2019-05-03",
     tags: ["frontend"],
@@ -121,7 +121,7 @@ export const PROJECTS = [
     hostedURL: "https://ugglr.github.io/gatsby-react-currency-wallet-app/",
   },
   {
-    img: require("../images/portfolio/16by9/gatsby_starter.jpg"),
+    img: require("../assets/images/portfolio/16by9/gatsby_starter.jpg"),
     title: "Official Gatsby.js Starter",
     date: "2019-04-19",
     tags: ["frontend"],
@@ -133,7 +133,7 @@ export const PROJECTS = [
       "https://www.gatsbyjs.org/starters/ugglr/gatsby-clean-portfolio/",
   },
   {
-    img: require("../images/portfolio/16by9/boendekostnad.jpg"),
+    img: require("../assets/images/portfolio/16by9/boendekostnad.jpg"),
     title: "React Mortgage Calculator",
     date: "2019-03-28",
     tags: ["frontend"],
@@ -144,7 +144,7 @@ export const PROJECTS = [
     hostedURL: "https://elastic-fermat-01bd5f.netlify.com",
   },
   /*   {
-    img: require("../images/portfolio/16by9/image-search.jpg"),
+    img: require("../assets/images/portfolio/16by9/image-search.jpg"),
     title: "React Search image-API App",
     date: "2019-03-03",
     description:
@@ -153,7 +153,7 @@ export const PROJECTS = [
     hostedURL: "https://priceless-newton-929cda.netlify.com",
   }, */
   {
-    img: require("../images/portfolio/16by9/weather-app.jpg"),
+    img: require("../assets/images/portfolio/16by9/weather-app.jpg"),
     title: "React Weather-API App",
     date: "2019-02-12",
     tags: ["frontend"],

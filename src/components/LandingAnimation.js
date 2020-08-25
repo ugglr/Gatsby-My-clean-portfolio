@@ -1,6 +1,6 @@
 import React from "react"
 import Lottie from "react-lottie"
-import animationData from "../images/lotties/3046-me-at-office.json"
+import animationData from "../assets/images/lotties/3046-me-at-office.json"
 
 function LandingAnimation() {
   const defaultOptions = {

@@ -2,7 +2,7 @@ import React from "react"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import "../../fontawesome/css/all.min.css"
+import "../../assets/fontawesome/css/all.min.css"
 
 import "./summary.css"
 
