@@ -10,15 +10,23 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.3.3",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-env-variables": "^1.0.1",
     "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-fontawesome-css": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.26",
     "gatsby-plugin-netlify": "^2.2.4",
@@ -35,7 +43,14 @@
     "superagent": "^5.2.2"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "@babel/core": "^7.11.4",
+    "@storybook/addon-actions": "^6.0.17",
+    "@storybook/addon-essentials": "^6.0.17",
+    "@storybook/addon-links": "^6.0.17",
+    "@storybook/react": "^6.0.17",
+    "babel-loader": "^8.1.0",
+    "prettier": "^1.16.4",
+    "react-is": "^16.13.1"
   },
   "repository": {
     "type": "git",

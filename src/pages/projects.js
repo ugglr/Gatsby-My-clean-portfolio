@@ -6,7 +6,6 @@ import Tag from "../components/Tag"
 
 import { PROJECTS, PAGE_CONTENT } from "../content/Projects"
 
-import { WARNING } from "../Theme/colors"
 import styles from "./projects.module.css"
 import "./index.css"
 
