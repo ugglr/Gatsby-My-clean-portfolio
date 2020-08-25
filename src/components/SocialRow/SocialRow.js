@@ -1,5 +1,7 @@
 import React from "react"
-import "./socialRow.css"
+import styles from "./socialRow.module.css"
+
+import "../../fontawesome/css/all.min.css"
 
 const socials = [
   {
@@ -28,7 +30,7 @@ const SocialRow = props => {
   const defaultColor = "black"
 
   return (
-    <div className="jumbo_social text-center">
+    <div className={styles.jumbo_social}>
       {socials.map(({ url, icon }) => {
         return (
           <div>
