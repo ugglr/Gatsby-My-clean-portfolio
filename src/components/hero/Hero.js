@@ -13,15 +13,15 @@ const Hero = ({ greeting, title, subtitle, callToAction }) => (
         {greeting}
         <br /> {title}
       </h1>
-      <div class="jumbo_animation_container">
+      <div className="jumbo_animation_container">
         <LandingAnimation />
       </div>
       <br />
-      <div class="jumbo_desc_container">
+      <div className="jumbo_desc_container">
         <h3>{subtitle}</h3>
       </div>
 
-      <div class="jumbo_cta_container">
+      <div className="jumbo_cta_container">
         <p>{callToAction.title}</p>
         <p>
           {callToAction.subtitle}
@@ -31,7 +31,7 @@ const Hero = ({ greeting, title, subtitle, callToAction }) => (
         </p>
       </div>
     </div>
-    <div class="jumbo_social_row_container">
+    <div className="jumbo_social_row_container">
       <SocialRow />
     </div>
   </Jumbotron>

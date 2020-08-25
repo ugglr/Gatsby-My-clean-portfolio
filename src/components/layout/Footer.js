@@ -63,7 +63,7 @@ const Footer = () => (
         <Row>
           {Links.map(({ url, title }) => {
             return (
-              <Col xs={2} style={{ fontSize: "1.3rem" }}>
+              <Col key={title} xs={2} style={{ fontSize: "1.3rem" }}>
                 <Link to={url}>
                   <span className={footer.link_styles}>{title}</span>
                 </Link>

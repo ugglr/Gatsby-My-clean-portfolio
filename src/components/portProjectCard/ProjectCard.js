@@ -50,7 +50,7 @@ const ProjectCard = ({
               }}
             >
               {tags.map(AString => {
-                return <Tag>{AString}</Tag>
+                return <Tag key={AString}>{AString}</Tag>
               })}
             </div>
           </>
@@ -68,7 +68,11 @@ const ProjectCard = ({
               }}
             >
               {tech.map(AString => {
-                return <Tag randomAccent>{AString}</Tag>
+                return (
+                  <Tag key={AString} randomAccent>
+                    {AString}
+                  </Tag>
+                )
               })}
             </div>
           </>

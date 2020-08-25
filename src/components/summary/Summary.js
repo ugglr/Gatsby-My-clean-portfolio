@@ -72,13 +72,13 @@ const Summary = () => (
         flexDirection: "row",
       }}
     >
-      <h3 class="summary_title hover_effect">Recent Tech</h3>
+      <h3 className="summary_title hover_effect">Recent Tech</h3>
     </div>
     <br />
     <Row className="text-center tech_icons">
-      {recentTech.map(o => {
+      {recentTech.map((o, i) => {
         return (
-          <Col>
+          <Col key={i}>
             <i className={`${o.icon} hover_effect`} />
             <br />
             <span>{o.subtitle}</span>
@@ -92,10 +92,10 @@ const Summary = () => (
       My biggest goal as an Engineer is to never stop learning, and work on cool
       stuff. Here's a couple of things I'm good at:
     </h4>
-    <div class="summary_row">
-      {summary.map(o => {
+    <div className="summary_row">
+      {summary.map((o, i) => {
         return (
-          <div class="summary_col">
+          <div key={i + "1"} className="summary_col">
             <h4 className="hover_effect">{o.title}</h4>
             <p>{o.body}</p>
           </div>

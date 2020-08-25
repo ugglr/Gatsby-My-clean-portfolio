@@ -33,7 +33,7 @@ const SocialRow = props => {
     <div className={styles.jumbo_social}>
       {socials.map(({ url, icon }) => {
         return (
-          <div>
+          <div key={url}>
             <a
               style={{ color: `${props.color ? props.color : defaultColor}` }}
               href={url}
