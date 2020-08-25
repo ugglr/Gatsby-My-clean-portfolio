@@ -5,8 +5,8 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 import Tag from "../components/Tag"
 
 import { PROJECTS, PAGE_CONTENT } from "../content/Projects"
+import { socials } from "../content/shared"
 
-import { WARNING } from "../Theme/colors"
 import styles from "./projects.module.css"
 import "./index.css"
 
@@ -56,12 +56,14 @@ export default () => {
         <MyJumbo
           title={PAGE_CONTENT.JUMBO.title}
           body={PAGE_CONTENT.JUMBO.body}
+          socials={socials}
         />
         <hr />
         <div className={styles.filter_container}>
           <p className={styles.filter_text}>Filter:</p>
-          {filters.map(f => (
+          {filters.map((f, i) => (
             <div
+              key={i}
               onClick={() => {
                 if (filter === f) {
                   setFilter(null)
@@ -91,20 +93,24 @@ export default () => {
       //hostedURL: URL to the hosted version of the app
       //rightButtonText: changes the right button text*/}
           {projects.map(
-            ({
-              img,
-              title,
-              date,
-              description,
-              leftButtonText,
-              hostedURL,
-              rightButtonText,
-              sourceURL,
-              tech,
-              tags,
-            }) => {
+            (
+              {
+                img,
+                title,
+                date,
+                description,
+                leftButtonText,
+                hostedURL,
+                rightButtonText,
+                sourceURL,
+                tech,
+                tags,
+              },
+              i
+            ) => {
               return (
                 <ProjectCard
+                  key={i}
                   imageSrcPath={img}
                   title={title}
                   date={date}

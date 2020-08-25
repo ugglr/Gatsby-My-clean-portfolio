@@ -5,12 +5,22 @@
 .summary_content {
   max-width: 960px;
   margin-bottom: 2.5rem;
+  overflow: hidden;
+  padding: 0 16px;
 }
 .summary_title {
   font-size: 2rem;
   font-weight: 580;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.tech_icons {
+  display: flex;
+  max-width: 960px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .tech_icons i {

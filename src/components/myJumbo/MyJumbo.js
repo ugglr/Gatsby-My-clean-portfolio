@@ -12,7 +12,7 @@ body2:
 */
 
 const MyJumbo = props => {
-  const { title, body, body2 } = props
+  const { title, body, body2, socials } = props
   return (
     <Jumbotron fluid className="myjumbo" style={myjumbo_styles}>
       <div className="myjumbo_content">
@@ -23,7 +23,7 @@ const MyJumbo = props => {
         <span>
           <p>{body2}</p>
         </span>
-        <SocialRow />
+        <SocialRow socialsArray={socials} />
       </div>
     </Jumbotron>
   )
