@@ -57,6 +57,8 @@ export const PROJECTS = [
     ],
     description:
       "Events inventory management app. This app helps to support Tiket.com ToDo Partners by giving robust functionality in managing their inventory orders. You can easily find customer information and ticket redemption details in real-time. Architected by a beloved tech-lead who sadly departed the team, otherwise I'm the only developer on the apps. iOS coming soon.",
+    sourceURL: "https://apps.apple.com/id/app/ignis-by-tiket-com/id1522809152",
+    leftButtonText: "Apple App Store",
     hostedURL:
       "https://play.google.com/store/apps/details?id=com.tiketeventsmerchants",
     rightButtonText: "Google Play Store",
