@@ -21,17 +21,32 @@ export const summary = {
 
 export const workExperience = [
   {
+    jobPosition: "Fullstack Software Engineer",
+    company: {
+      name: "Norban.se",
+      location: "Remote (Sweden HQ)",
+      url: "https://www.norban.se",
+    },
+    present: true,
+    startYear: "2020",
+    startMonth: "09",
+    endYear: null,
+    endMonth: null,
+    description: `Remote position. I work daily on all parts of our stack: web, backoffice, backend and mobile (react native). It's all written in Typescript where we use the react eco-system for all our clients, and Node/Apollo/GraphQL on the backend. `,
+    projects: [],
+  },
+  {
     jobPosition: "Software Development Engineer",
     company: {
       name: "Tiket.com",
       location: "Remote (Canada Office)",
       url: "https://www.tiket.com",
     },
-    present: true,
+    present: false,
     startYear: "2019",
     startMonth: "08",
-    endYear: null,
-    endMonth: null,
+    endYear: "2020",
+    endMonth: "09",
     description: `I work remotely mainly with HQ in Jakarta on the Tiket ToDo team, but I am under the Canadian office based in Vancouver. Our team focuses on events and attractions and have building out a platform to cater that segment of the business. I do front-end development in React on our B2B Admin site, and also with React Native on the Android / iOS applications.
     Our stack as mentioned above revolves around the React eco-system, we also use Redux, Styled Components, Jest, Detox and much more.
     `,

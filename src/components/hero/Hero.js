@@ -11,7 +11,7 @@ const Hero = ({ socials }) => (
     <div className="jumbo_content">
       <h1>
         Hi,
-        <br /> I'm a Software developer from Sweden, living in Hangzhou, China.
+        <br /> I'm a Fullstack developer from Sweden, living in Hangzhou, China.
       </h1>
       <div className="jumbo_animation_container">
         <LandingAnimation />
@@ -19,8 +19,8 @@ const Hero = ({ socials }) => (
       <br />
       <div className="jumbo_desc_container">
         <h3>
-          Right now I'm working remotely using React and React Native to build
-          awesome software over at Tiket.com.
+          Right now I'm working remotely to build the next generation
+          real-estate platform over at Norban.se
         </h3>
       </div>
 
