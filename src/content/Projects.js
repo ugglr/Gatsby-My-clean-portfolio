@@ -8,6 +8,31 @@ export const PAGE_CONTENT = {
 
 export const PROJECTS = [
   {
+    img: require("../images/portfolio/norban.png"),
+    title: "Norban.se App",
+    date: "2020-09-01",
+    tags: ["work", "mobile", "backend"],
+    tech: ["react native", "lottie", "graphql", "apollo", "unstated"],
+    description:
+      "Mobile application where our the users can follow the sales process of their home, take action to collect more interest and interact with Norban's support team and real-estate agents",
+    sourceURL: "https://apps.apple.com/us/app/norban/id1469364245",
+    leftButtonText: "Apple App Store",
+    hostedURL:
+      "https://play.google.com/store/apps/details?id=se.norban.norbanapp",
+    rightButtonText: "Google Play Store",
+  },
+  {
+    img: require("../images/portfolio/norban.png"),
+    title: "Norban.se web",
+    date: "2020-09-01",
+    tags: ["work", "frontend", "backend"],
+    tech: ["react", "redux", "apollo", "graphql", "SSR", "graphql"],
+    description:
+      "Norban is making a stand in the Swedish real estate market and has rolled out many new services for customers looking to sell their home. I work on the full stack for our website, backend and CRM solution all employees use on the daily.",
+    sourceURL: "https://www.norban.se",
+    leftButtonText: "Website",
+  },
+  {
     img: require("../images/portfolio/storybook.png"),
     title: "React Native Storybook Boilerplate",
     date: "2020-07-28",
