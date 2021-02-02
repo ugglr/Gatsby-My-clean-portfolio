@@ -29,7 +29,7 @@ export const PROJECTS = [
     tech: ["react", "redux", "apollo", "graphql", "SSR", "graphql"],
     description:
       "Norban is making a stand in the Swedish real estate market and has rolled out many new services for customers looking to sell their home. I work on the full stack for our website, backend and CRM solution all employees use on the daily.",
-    sourceURL: "https://apps.apple.com/us/app/norban/id1469364245",
+    sourceURL: "https://www.norban.se",
     leftButtonText: "Website",
   },
   {
