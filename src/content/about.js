@@ -8,7 +8,7 @@ export const jumboContent = {
 export const summary = {
   title: "Summary",
   subtitle: "I love Coffee. I mean, more than people normally love coffee",
-  body: `
+  /* body: `
   I currently live in Hangzhou, China, a really exciting city, and my wifes hometown. My career goal is that I want to build things that are new, refreshing, and makes a difference for others. I really enjoy solving tough problems.
 
   MSc. in Electrical Engineering: Design of Processors and Integrated Systems. We dived deep into computer science, large scale software development, JAVA, signal processing and Chip design / fabrication. We also did some FPGA development with VHDL / Verilog, designed MEMS and did a wide range of embedded projects. Tons and tons of math, analysis, analogue electronics, we ran through a lot in those 5 years.
@@ -16,11 +16,11 @@ export const summary = {
   Right out of university I was soon becoming a father, and I got an offer to take up the role as an electronics engineer at a stable local company. Needless to say, it was a great start, the work was rewarding and I was learning brand new things everyday. 3.5 years down the line I decided to make a change, I realized that I wanted to change direction into Software Engineering. This is because I never stopped coding on my free time.
   
   In early 2019 and after about 9 months of self study into the React eco-system, and web development, I landed my current job as a Software Development Engineer, and Remote has been a great experience for me.
-  `,
+  `, */
 }
 
 export const workExperience = [
-  {
+  /* {
     jobPosition: "Fullstack Software Engineer",
     company: {
       name: "Norban.se",
@@ -75,7 +75,7 @@ export const workExperience = [
         • Responsible for solving the problems in the production/processing and, for product maintenance;
     `,
     projects: [],
-  },
+  }, */
   {
     jobPosition: "Electronics Engineer",
     company: {

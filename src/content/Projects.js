@@ -7,7 +7,7 @@ export const PAGE_CONTENT = {
 }
 
 export const PROJECTS = [
-  {
+  /* {
     img: require("../images/portfolio/norban.png"),
     title: "Norban.se App",
     date: "2020-09-01",
@@ -31,7 +31,7 @@ export const PROJECTS = [
       "Norban is making a stand in the Swedish real estate market and has rolled out many new services for customers looking to sell their home. I work on the full stack for our website, backend and CRM solution all employees use on the daily.",
     sourceURL: "https://www.norban.se",
     leftButtonText: "Website",
-  },
+  }, */
   {
     img: require("../images/portfolio/storybook.png"),
     title: "React Native Storybook Boilerplate",
@@ -68,7 +68,7 @@ export const PROJECTS = [
     hostedURL: "https://brewtime.app",
     rightButtonText: "Landing Page",
   },
-  {
+  /* {
     img: require("../images/portfolio/ignis.png"),
     title: "Ignis by Tiket",
     date: "2020-06-03",
@@ -87,7 +87,7 @@ export const PROJECTS = [
     hostedURL:
       "https://play.google.com/store/apps/details?id=com.tiketeventsmerchants",
     rightButtonText: "Google Play Store",
-  },
+  }, */
   {
     img: "https://miro.medium.com/max/1400/1*xDi2csEAWxu95IEkaNdFUQ.png",
     title: "react-native-value-picker",

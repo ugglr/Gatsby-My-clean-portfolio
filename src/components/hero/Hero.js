@@ -9,9 +9,9 @@ import SocialRow from "../SocialRow/SocialRow"
 const Hero = ({ socials }) => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <h1>
+      <h1 style={{ marginTop: "8rem" }}>
         Hi,
-        <br /> I'm a Fullstack developer from Sweden, living in Hangzhou, China.
+        <br /> I'm a Fullstack developer
       </h1>
       <div className="jumbo_animation_container">
         <LandingAnimation />
@@ -19,8 +19,7 @@ const Hero = ({ socials }) => (
       <br />
       <div className="jumbo_desc_container">
         <h3>
-          Right now I'm working remotely to build the next generation
-          real-estate platform over at Norban.se
+          Right now I'm working remotely to build the next generation software.
         </h3>
       </div>
 
@@ -37,7 +36,7 @@ const Hero = ({ socials }) => (
       </div>
     </div>
     <div className="jumbo_social_row_container">
-      <SocialRow socialsArray={socials} />
+      {/* <SocialRow socialsArray={socials} /> */}
     </div>
   </Jumbotron>
 )

@@ -17,7 +17,7 @@ export default () => {
       <Layout>
         <MyJumbo {...jumboContent} socials={socials} />
         <hr />
-        <CvDownload />
+        {/* <CvDownload /> */}
         <AboutCard {...summary} />
 
         {workExperience.map((job, i) => {

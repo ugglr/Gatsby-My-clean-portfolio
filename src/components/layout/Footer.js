@@ -52,7 +52,7 @@ const Footer = () => (
         })}
       </div>
       <div className={styles.footer_social}>
-        <SocialRow color="white" socialsArray={socials} />
+        {/* <SocialRow color="white" socialsArray={socials} /> */}
       </div>
       <div className="text-center" style={{ marginTop: "3rem" }}>
         {name} © {new Date().getFullYear()}, Built with

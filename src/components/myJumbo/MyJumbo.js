@@ -23,7 +23,7 @@ const MyJumbo = props => {
         <span>
           <p>{body2}</p>
         </span>
-        <SocialRow socialsArray={socials} />
+        {/* <SocialRow socialsArray={socials} /> */}
       </div>
     </Jumbotron>
   )
