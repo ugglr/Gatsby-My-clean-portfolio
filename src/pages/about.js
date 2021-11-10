@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
-import CvDownload from "../components/cvDownload/CvDownload"
 import AboutCard from "../components/aboutCard/AboutCard"
 import JobCard from "../components/jobCard/JobCard"
 
